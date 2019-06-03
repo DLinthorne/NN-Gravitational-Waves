@@ -209,7 +209,7 @@ Setting this equal to some multiple of the quark mass of sector $i$,
 \end{equation}
 This can be solved for $i$:
 \begin{equation}\label{eqn:critIndex}
-i = \frac{(m_s m_c m_b m_t i^2)^{4/25}(\Lambda_{(6)})^{42/25}}{(\kappa m_u)^{58/25}}.
+i = \frac{(m_s m_c m_b m_t)^{4/25}(\Lambda_{(6)})^{42/25}}{(\kappa m_u)^{58/25}}.
 \end{equation}
 The results as a function of $\kappa$ are plotted in Fig. \ref{fig:critIndex}. 
  
@@ -217,10 +217,69 @@ The critical index plot (Fig. \ref{fig:critIndex}) clearly demonstrates that eve
 
 \subsection{Exotic Sectors}
 
+In every exotic sector the fermion masses are exceptionally light: even the most massive quark of each sector is orders of magnitude smaller than our confinement scale, $m_t \ll \Lambda_{QCD}$. Additionally, since $m_q \propto 1/(m^2_H)_i$ this separation only becomes more pronounced as we move to sectors further from our own. The scale of the exotic quarks makes it unnecessary to run down the scale of the strong coupling as done for the standard sectors --- the phase transition for all exotic sectors occurs at $\sim 90 \,\mathrm{MeV}$ and a strong first order phase transition occurs for all exotic sectors at this temperature. 
 
+The confinement of these sectors directly leads to the production of both baryons and mesons as we have the spontaneous breaking of SU$(6) \,\times$ SU$(6) \rightarrow\,$ SU$(6)$. This leads to the production of 35 pseudo-Goldstone bosons during the phase transition. These become relevant in the calculation of gravitational wave signatures through the calculation of the critical phase transition strength, $\alpha_{\infty}$, with $\alpha_{\infty}$ denotes the dividing line between the runaway regime  $(\alpha >\alpha_{\infty})$ and the non-runaway regime $(\alpha <\alpha_{\infty})$. Explicitly \cite{Breitbach:2018ddu, Caprini:2015zlo, Espinosa:2010hh}, 
+\begin{equation}\label{eqn:critPTstrength}
+\alpha_{\infty} = \frac{(T^{nuc}_h)^2}{\rho_R}\left[\sum_{bosons} n_i\frac{\Delta m^2_i}{24} + \sum_{fermions} n_i\frac{\Delta m_i^2}{48}\right],
+\end{equation} 
+for particles with $n_i$ degrees of freedom that obtain mass through the phase transition. 
+
+The masses obtained through the phase transition can be approximated through the use of a generalization of the Gell-Mann--Oakes--Renner relation \cite{Schwartz:2013pla},
+\begin{equation}\label{eqn:gmor}
+m^2_{\pi} = \frac{V^3}{F^2_{\pi}}(m_u + m_d),
+\end{equation}
+where $V \sim \Lambda_{QCD}$, $F_\pi$ is the pion decay constant. So, for mesons in exotic sector $i$:
+\begin{equation}
+m_{\pi}^i \sim \sqrt{\frac{m_1^i+m_2^i}{m_u + m_d}} m_{\pi}.
+\end{equation}
+Ultimately, calculating the critical phase transition strength for each sector using Eq. (\ref{eqn:critPTstrength}) indicates that every sector has a phase transition in the runaway regime. Thus, all exotic sectors have strong first order phase transitions that lead to runaway bubble walls.
 
 \section{Constraints}
 \label{sec:constraints}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.45\textwidth]{NeffBounds.png}
+\label{fig:Neff}
+\hfill
+\caption{$\Delta N_{eff}$ as a function of relativistic degrees of freedom in a fully decoupled hidden sector ($g_h$) and the temperature ratio of said sector. Contours set $\Delta N_{eff}$ to 0.01 (forest green), 0.03 (lime green), 0.1 (gentle pink), and 0.5 (royal violet). Most stringent current $N_{eff}$ bounds shade in grey. 
+}
+\end{figure}
+
+In general, the multi-hidden sector models explored here feature feature of huge number of (nearly) massless degrees of freedom. Dark photons, neutrinos, and the like abound in these sectors and, assuming a relatively high reheat temperature, the leptons, quarks, and baryons of these sectors are can easily be relativistic. In $N$naturalness this feature is realized quite dramatically: each of the thousands (or millions or billions) of sectors possess relativistic degrees of freedom. The presence of these particles can have two main effects: extra relativistic particles can alter the expansion history of the universe through changes to the energy density or hidden sectors can feature annihilations that reheat the photons or neutrinos of our sector near Big Bang Nucleosynthesis (BBN) and affect the light element abundances. The effective number of neutrino species, $N_{eff}$, describes these contributions and, as such, is the strictest constraint that must be dealt with when studying these type of multi-phase transition models. 
+
+The SM predicts that $N^{SM}_{eff} = 3.046$ \cite{Mangano:2005cc}. This is in good agreement with bounds from studies of the Cosmic Microwave Background (CMB) by Planck combined with bayon acoustic oscillations (BAO) measurements \cite{Aghanim:2018eyx}:
+\begin{equation}
+N_{eff} = 2.99^{+0.34}_{-0.33}.
+\end{equation}
+Various different assumptions about the history of the universe can be made and different data sets can be chosen to obtain slightly different results \cite{Breitbach:2018ddu} --- for the purposes of this exploratory work, wading through this landscape is unnecessary.
+
+For fully decoupled sectors that never enters (or reenters) thermal equilibrium with our sector, we obtain additional contributions to $N^{SM}_{eff}$ \cite{Breitbach:2018ddu}
+\begin{equation}\label{eqn:DeltaNeff1hs}
+\Delta N_{eff} = \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_h \xi_h^4.
+\end{equation} 
+Here, $g_h$ represents the effective number of relativistic degrees of freedom for the hidden sector when the hidden sector has a temperature $T_h = \xi_h T_\gamma$. Contours for Eq. (\ref{eqn:DeltaNeff1hs}) at various temperature ratios as well as CMB bounds are plotted in Fig. \ref{fig:Neff}. We take this approach and generalize it to include many additional sectors:
+\begin{equation}\label{eqn:DeltaNeff}
+\Delta N_{eff} = \sum_i \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_{i} \xi^4_{i}.
+\end{equation} 
+
+As Fig. \ref{fig:Neff} demonstrates, sectors with a temperature ratio above $\xi_h\sim 0.5$ with even a couple of relativist particles are immediately excluded by CMB constraints. Accordingly, the additional sectors present in this project must be heated to a much smaller fraction of our own sector's temperature. 
+
+\subsection{Exotic Sector Contributions}
+
+The original $N$naturalness paper focused on the (stronger) $N_{eff}$ constraints from the additional standard sectors and ignored the exotic sectors altogether \cite{Arkani-Hamed:2016rle}; in contrast, we take the opposite approach. Since we're more interested in a more general scenario with multiple dark phase transitions, we focus in on whether zero vev sectors can dodge these $N_{eff}$ bounds.
+
+Within the framework of SM-like sectors (save the higgs mass parameter), our exotic sectors feature at most 106.75 effective degrees of freedom at high energies: 72 from quarks,  12 from charged leptons, 6 from neutrinos, 16 from gluons, 2 from photons, 6 from W bosons (no longitudinal modes due to a no symmetry breaking), 4 from the higgs sector (again, no symmetry breaking leads to 3 additional modes), for a total of 118 degress of freedom. Scaling the fermionic contributions by $7/8$ gives us 106.75 effective relativistic degrees of freedom.  After the higgses freeze out, 4 degrees of freedom are lost; when the QCD phase transition occurs 35 bosonic degrees of freedom are gained while 72 fermionic are lost, leaving 56.75 effective degrees of freedom. Since all additional sectors are colder than our own by the time photon decoupling occurs ($\sim 0.39 \ev$), the pions of all of these sectors have a much higher mass in accordance with Eq. (\ref{eqn:gmor}) and thus will have frozen out long before --- leaving at most $11.25$ effective degrees of freedom per sector.
+
+Coupling the number of effective degrees of freedom per sector with the energy density scaling of $\sim 1/m_H^4$ found in the zero vev sectors leads to tiny temperature ratios. Assuming a reheating temperature of $100$ GeV and a completely uniform distribution of sectors, the temperature of the first exotic sector is slightly more than $6\%$ of our sector at reheating. Applying Eq. (\ref{eqn:DeltaNeff}) to this particular situation gives us:
+\begin{equation}
+\Delta N_{eff} = \sum_i \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_{i} \left(\frac{0.06}{i^2}\right)^4.
+\end{equation}     
+Summing over all sectors (sectors above $i \sim 10$ essentially don't contribute due to the small temperature ratio) gives us a contribution of $\mathcal{O} (10^{-4})$. Evolving the sectors thermal histories forward in time to the recombination era gives us a slightly larger value, but still of order $\mathcal{O}(10^{-4})$; well under current CMB bounds. 
+
+In additional runs completed with various adjustments to the exotic sectors (e.g. adjusting the exotic sectors to have a lower higgs mass squared or clustering multiple hidden sectors close to the first exotic one) the value of $\Delta N_{eff}$ coming from the exotic sectors is larger than the base $N$naturalness case. This increase is, for the most part, not excluded by current bounds, but will be mostly probeable by next generation CMB experiments. 
+
 
 \section{Signals}
 \label{sec:signals}
