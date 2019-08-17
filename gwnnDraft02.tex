@@ -114,15 +114,23 @@ Keeping with the original convention, we write our mass parameter as
 \begin{equation}\label{eqn:massParam}
 \left(m_H^2\right)_i = -\frac{\Lambda_H^2}{N}(2i+r),
 \end{equation}
-where $i$ denotes the sector ($-\frac{N}{2}\leq i \leq \frac{N}{2}$). $i = 0$ is the sector that possess the smallest vev and is thus ``our" SM sector. \draftnote{Write an equation that shows how the vev scales with $i$.}Finally, the parameter $r$ is a way to adjust the tuning of the model: adjusting $r$ away from 1 (which leads to purely uniform spacing) allows us to make a larger gap between our sector and the next one. Within this work, we looked at variants on this sort of tuning including non-uniform distributions and clustered sector effects; these ideas are discussed in Sec. \ref{sec:signals}.   
+where $i$ denotes the sector ($-\frac{N}{2}\leq i \leq \frac{N}{2}$). $i = 0$ is the sector that possess the smallest vev and is thus ``our" SM sector. \textcolor{green}{Write an equation that shows how the vev scales with $i$.} The vev for each standard sector is given explicitly by
+\begin{equation}\label{eqn:vevs}
+v^i = m^i_H/\sqrt{\lambda_i} = \sqrt{\frac{2i + r}{N}}\left(\frac{\Lambda_H}{\lambda}\right),
+\end{equation}
+$\lambda_i$ is the quartic coefficient of the scalar potential and is the same across all sectors. The parameter $r$ is a way to adjust the tuning of the model: adjusting $r$ away from 1 (which leads to purely uniform spacing) allows us to make a larger gap between our sector and the next one. Within this work, we looked at variants on this sort of tuning including non-uniform distributions and clustered sector effects; these ideas are discussed in Sec. \ref{sec:gw}.   
 
-As mentioned above, half of all sectors in this model feature a Higgs mass parameter such that $m_H^2 < 0$. These sectors feature electroweak symmetry breaking just like in the SM, however the vevs produced scale with the changing mass parameter: $v_i \sim v\sqrt{i}$. As the masses for particles in these sectors scale with the vev, this leads to the masses of particles within each sector strictly increasing with $i$. The consequences of this on the QCD of $i \geq 1$ sectors is further discussed in Sec. \ref{sec:dQCD}. 
+As mentioned above, half of all sectors in this model feature a Higgs mass parameter such that $m_H^2 < 0$. These sectors feature electroweak symmetry breaking just like in the SM, however the vevs produced scale with the changing mass parameter: $v_i \sim v\sqrt{i}$ (explicitly demonstrated in Eq.~(\ref{eqn.vevs}) As the masses for particles in these sectors scale with the vev, this leads to the masses of particles within each sector strictly increasing with $i$. The consequences of this on the QCD of $i \geq 1$ sectors is further discussed in Sec. \ref{sec:dQCD}. 
 
-The remaining sectors within this model provide a radical departure from our own. $m_H^2 > 0$ leads to no vev and electroweak symmetry is only broken at very low scales due to the phase transition from free quarks to confinement at the QCD scale $\Lambda_{QCD}$. As a result, fermion masses are produced via four-fermion interactions generated after integrating out the SU$(2)$ Higgs multiplet. This leads to very light fermions: $m_f \sim y_f y_t \Lambda_{QCD}^3/(m^2_H)_i \leq 100$ eV, with $y_f$ representing the Yukawa coupling to fermion $f$. The extremely light quarks that appear in these sectors dramatically change the nature of the QCD phase transition --- unlike the SM, the transition is strongly first order. Again, this is further developed in Sec. \ref{sec:dQCD}. Crucially, this results in the production of gravitational waves. This is the physical signature we're interested in exploring within this paper; the calculation and results are presented in Sec. \ref{sec:signals}. 
+The remaining sectors within this model provide a radical departure from our own. $m_H^2 > 0$ leads to no vev and electroweak symmetry is only broken at very low scales due to the phase transition from free quarks to confinement at the QCD scale $\Lambda_{QCD}$. As a result, fermion masses are produced via four-fermion interactions generated after integrating out the SU$(2)$ Higgs multiplet. This leads to very light fermions: 
+\begin{equation}\label{eqn:exoticFM}
+m_f \sim y_f y_t \Lambda_{QCD}^3/(m^2_H)_i \leq 100 \,\ev,
+\end{equation}
+with $y_f$ representing the Yukawa coupling to fermion $f$. The extremely light quarks that appear in these sectors dramatically change the nature of the QCD phase transition --- unlike the SM, the transition is strongly first order. Again, this is further developed in Sec. \ref{sec:dQCD}. Crucially, this results in the production of gravitational waves. This is the physical signature we're interested in exploring within this paper; the calculation and results are presented in Sec. \ref{sec:gw}. 
 
 \subsection{Reheating N Sectors}
 
-A key issue within $N$naturalness is how to predominantly gift energy density to our own sector so as to not be immediately excluded by number of effective neutrinos ($N_{eff}$) bounds. This is done through the introduction of a post-inflationary field called the ``reheaton". After inflation, the reheaton field possess the majority of the energy density of the Universe. Although this field can generically be either by bosonic or fermionic, we reduce our scope to a scalar reheaton $\phi$. Our focus is primarily the production of gravitational waves from multiple sectors: \draftnote{What does the following mean?} the shifting to a fermion reheaton doesn't change the scaling of the energy density of the exotic sectors  and, as a result, is ignored in our analysis.
+A key issue within $N$naturalness is how to predominantly gift energy density to our own sector so as to not be immediately excluded by number of effective neutrinos ($N_{eff}$) bounds. This is done through the introduction of a post-inflationary field called the ``reheaton". After inflation, the reheaton field possess the majority of the energy density of the Universe. Although this field can generically be either by bosonic or fermionic, we reduce our scope to a scalar reheaton $\phi$. Our focus is primarily the production of gravitational waves from multiple sectors: \textcolor{yellow}{What does the following mean?} a fermion reheaton doesn't change the scaling of the energy density of the exotic sectors and thus doesn't affect expected gravitational wave profiles.
 
 In order to maintain the naturalness of our SM sector, the reheaton coupling is taken to be universal to every sector's Higgs. However, a large amount of the Universe's energy density must ultimately be deposited in our own sector for $N$naturalness to avoid instant exclusion. In order to accomplish this the decay width into each sector must drop as $\vert m_H\vert$ grows. If we insist that the reheaton is a gauge singlet that is both the dominant coupling to every sector's Higgs and lighter than the naturalness cutoff $\Lambda_H/\sqrt{N}$ then we construct a model that behaves as desired. 
 
@@ -140,13 +148,16 @@ Note that the cross-quartic couplings are absent, suppressed by a very small cou
 \cL_\phi^{v = 0} &\supset C_2 a \frac{g^2}{16\pi^2 m_H^2}\phi W_{\mu\nu}W^{\mu\nu},
 \end{split}
 \end{equation}
-\draftnote{Should the first equation go like $1/m_h$ (not squared)?}with $C_i$ representing numerical coefficients, $g$ the weak coupling constant, and $W^{\mu\nu}$ the SU$(2)$ field strength tensor.
+\textcolor{green}{Should the first equation go like $1/m_h$ (not squared)? It does --- v scales identically to $m_h$}with $C_i$ representing numerical coefficients, $g$ the weak coupling constant, and $W^{\mu\nu}$ the SU$(2)$ field strength tensor.
 
-Immediately from Eq. (\ref{eqn:nnEffLag}), we can see that the matrix element for decays into standard sectors is inversely proportional to that sectors higgs mass, $\cM_{m_H^2 < 0} \sim 1/m_{h_i}$. The Feynman diagram for this process is presented in Fig. \ref{fig:reheatonDecays}. The loop decay of $\phi \rightarrow \gamma\gamma$ is always sub-leading and can be neglected. It should be noted that as one goes to sectors with larger and larger vevs, the increasing mass of the fermions eventually leads to situations where the decay to two on-shell bottom or charm quarks is kinematically forbidden, $m_\phi < 2 m_q$. \draftnote{Put an equation sketching how $m_f$ scales with $m_h$} For sectors where this kinematic threshold is passed for charm quarks, contributions to cosmological observables can be safely ignored. All in all, we end up with a decay width that scales as $\Gamma_{m_H^2<0} \sim 1/m_h^2$. Since we can expect energy density to be proportional to the decay width, $\frac{\rho_i}{\rho_{SM}} \approx \frac{\Gamma_i}{\Gamma_{SM}}$, this indicates that energy density of standard sectors falls proportional to $1/i$. 
+Immediately from Eq. (\ref{eqn:nnEffLag}), we can see that the matrix element for decays into standard sectors is inversely proportional to that sectors higgs mass, $\cM_{m_H^2 < 0} \sim 1/m_{h_i}$. The Feynman diagram for this process is presented in Fig. \ref{fig:reheatonDecays}. The loop decay of $\phi \rightarrow \gamma\gamma$ is always sub-leading and can be neglected. It should be noted that as one goes to sectors with larger and larger vevs, the increasing mass of the fermions ($m_f \sim v_i \sim v_{us}\sqrt{i}$) eventually leads to situations where the decay to two on-shell bottom or charm quarks is kinematically forbidden, $m_\phi < 2 m_q$. \textcolor{green}{Put an equation sketching how $m_f$ scales with $m_h$} For sectors where this kinematic threshold is passed for charm quarks, contributions to cosmological observables can be safely ignored. All in all, we end up with a decay width that scales as $\Gamma_{m_H^2<0} \sim 1/m_h^2$. Since we can expect energy density to be proportional to the decay width, $\frac{\rho_i}{\rho_{SM}} \approx \frac{\Gamma_i}{\Gamma_{SM}}$, this indicates that energy density of standard sectors falls:
+\begin{equation}\label{eqn:edSS}
+\rho_i \sim \frac{\rho_{SM}}{i}.
+\end{equation} 
 
 For the exotic sectors, Eq. (\ref{eqn:nnEffLag}) indicates a matrix element scaling $\cM_{m_H^2>0} \sim 1/m_{H_i}^2$. As the Feynman diagram (Fig.~\ref{fig:reheatonDecays}) shows, the reheaton decays to exotic sectors are loop suppressed, leading to a significantly lower energy density than the standard sectors. Both the decay width and energy density for these sectors scale as: $\Gamma_{m_H^2>0} \sim \rho_i \sim 1/m_H^4 \sim 1/i^2$. 
 
-As a final note, the reheating temperature, $T_{RH}$, \draftnote{What is this parameter exactly? The reheat temperature of the SM? Also, is this effect discussed in the original NNaturalness paper?} has an upper bound on the order of the weak scale. If this bound is not observed, the SM Higgs mass would have major thermal corrections --- leading to the branching ratios into other sectors being problematically large. In accordance with this restriction, this project only examines reheating temperatures at or below $100$ GeV.
+As a final note, the reheating temperature of our sector, $T_{RH}$, \textcolor{yellow}{What is this parameter exactly? The reheat temperature of the SM? Also, is this effect discussed in the original NNaturalness paper? Yes to both.} has an upper bound on the order of the weak scale. If this bound is not observed, the SM Higgs mass would have major thermal corrections --- leading to the branching ratios into other sectors being problematically large \citep{Arkani-Hamed:2016rle}. In accordance with this restriction, this project only examines reheating temperatures at or below $100$ GeV.
 
 
 \section{Dark QCD}
@@ -205,17 +216,7 @@ In cosmological terms, we can envision a sector's thermal history unfolding wher
 
 \subsection{Standard Sectors}
 
-%\begin{figure}
-%\centering
-%\includegraphics[width=0.45\textwidth]{critIndex.png}
-
-%\hfill
-%\caption{Critical index $i$ as a function of slop factor. 
-%}
-%\label{fig:critIndex}
-%\end{figure}
-
-As mentioned in the previous sections,\draftnote{refer to a particular equation} for standard sectors with increasing index $i$ the vevs of said sectors increase $v_i\propto \sqrt{i}$. This leads to increasingly heavy particle spectra for higher sectors --- eventually leading to sectors that are essentially pure Yang-Mills that featuring strong first order phase transitions. This, of course, begs the question: at what index $i$ do said phase transitions begin?
+As mentioned in the previous sections (see Eq.~(\ref{eqn:vevs})),\textcolor{green}{refer to a particular equation} for standard sectors with increasing index $i$ the vevs of said sectors increase $v_i\propto \sqrt{i}$. This leads to increasingly heavy particle spectra for higher sectors --- eventually leading to sectors that are essentially pure Yang-Mills that featuring strong first order phase transitions. This, of course, begs the question: at what index $i$ do said phase transitions begin?
 
 The actual boundary of region of interest on the Columbia plot is not precisely known and further lattice simulations are required to determine exactly where in parameter space cross-over transitions end and first order transitions begin. In lieu of such studies, we parameterize our ignorance in the form of a ``slop factor" $\kappa$. Assuming the up and down quarks of each sector to be of roughly the same scale, we determine what sector $i$ features $\kappa m_u^i \approx \Lambda_{QCD}$.
 
@@ -223,7 +224,7 @@ Using the methods outlined in the prior section we determine $\Lambda_{QCD}$ to 
 \begin{equation}\label{eqn:lambda2}
 \Lambda^i_{(2)} = (m_s^i m_c^i m_b^i m_t^i)^{2/29}(\Lambda^i_{(6)})^{21/29}
 \end{equation} 
-at the energy scale we're interested in. $\Lambda^i_{(6)}$ is identical for all sectors and is taken to have a standard model value \draftnote{what is that value?}. Rewriting Eq. (\ref{eqn:lambda2}) in terms of standard model variables, 
+at the energy scale we're interested in. $\Lambda^i_{(6)}$ is identical for all sectors and is taken to have a standard model value of $\Lambda^{(6)}_{MS} =(89 \pm 6)\, \mev$\cite{PhysRevD.98.030001}\textcolor{green}{what is that value?}. Rewriting Eq.~(\ref{eqn:lambda2}) in terms of standard model variables, 
 \begin{equation}\label{eqn:lambda2adj}
 \Lambda^i_{(2)} = (m_s m_c m_b m_t i^2)^{2/29}(\Lambda_{(6)})^{21/29}.
 \end{equation}
@@ -236,13 +237,13 @@ This can be solved for $i$:
 i = \frac{(m_s m_c m_b m_t)^{4/25}(\Lambda_{(6)})^{42/25}}{(\kappa m_u)^{58/25}}.
 \end{equation}
  
-The critical index demonstrates that even in the most extreme cases, where first order phase transitions occur with the up quark an order of magnitude less than $\Lambda_{QCD}$, the critical index is still $\sim 1000$. Looking back to the description of reheating \draftnote{refer to a particular equation} within $N$naturalness, we see the energy density of these sectors is at most $10^{-4}$ \draftnote{why not $10^{-3}$?} that of our sector. As a result, \draftnote{As we will show below?} the gravitational waves generated by the standard large $i$ sectors in $N$naturalness will not generate detectable signatures. 
+The critical index demonstrates that even in the most extreme cases, where first order phase transitions occur with the up quark an order of magnitude less than $\Lambda_{QCD}$, the critical index is still $\sim 1000$. Looking back to the energy density scaling in Eq.~(\ref{eqn:edSS})\textcolor{green}{refer to a particular equation} we see that, within the context of $N$naturalness, the energy density of these sectors is at most $10^{-4}$ \textcolor{red}{why not $10^{-3}$?} that of our sector. As a result, \textcolor{red}{As we will show below?} the gravitational waves generated by the standard large $i$ sectors in $N$naturalness will not generate detectable signatures. 
 
-However, if we move away from the standard $N$naturalness reheating mechanism and begin exploring mirror sectors with large vevs with $\cO( >10\%)$ of our energy density $\rho_{SM}$, we can have sectors with relatively high dark QCD scales that produce detectable gravitational waves. These sectors feature no baryons and, as such, produce runaway bubbles similar to the exotic sectors in standard $N$naturalness. From Eq. (\ref{eqn:lambda2}) we can determine the confinement scale of an arbitrary mirror sector --- the maximum possible given a $10^{16}$ limit \cite{Arkani-Hamed:2016rle} \draftnote{Is this actually an upper value of $m_H^2$ at the gut scale?} of sectors is $\sim 38 \,\gev$. After imposing $N_{eff}$ constraints (as in Sec. \ref{sec:constraints}), the energy density of said sector is limited to $\sim 0.25\rho_{SM}$. The signals of this sector and other test cases like it are explored in Sec. \ref{sec:signals}. It is important to note that these type of sectors mimic the general behaviour of any Yang-Mills like multi dark sector model. \draftnote{What does this sentence mean? Are there references that should appear here?}
+However, if we move away from the standard $N$naturalness reheating mechanism and begin exploring mirror sectors with large vevs with $\cO( >10\%)$ of our energy density $\rho_{SM}$, we can have sectors with relatively high dark QCD scales that produce detectable gravitational waves. These sectors feature no baryons and, as such, produce runaway bubbles similar to the exotic sectors in standard $N$naturalness. From Eq.~(\ref{eqn:lambda2}) we can determine the confinement scale of an arbitrary mirror sector --- the maximum possible given a $10^{16}$ limit \cite{Arkani-Hamed:2016rle} \textcolor{yellow}{Is this actually an upper value of $m_H^2$ at the gut scale? The more sectors added in, the lower the scale of strong gravitational coupling. With more sectors than $10^16$, the top sectors start having vevs higher than the gravitational scale} of sectors is $\sim 38 \,\gev$. After imposing $N_{eff}$ constraints (as in Sec. \ref{sec:constraints}), the energy density of said sector is limited to $\sim 0.25\rho_{SM}$. The signals of this sector and other test cases like it are explored in Sec. \ref{sec:gw}. 
 
 \subsection{Exotic Sectors}
 
-In every exotic sector the fermion masses are exceptionally light: their masses are generated by dimension six operators with the Higgs integrated out as show in \draftnote{cite an equation from before}, and are therefore all below the confinement scale. The exotic sectors all have identical one-loop running of the QCD gauge coupling, and thus all have approximately the same confinement scale given by $\Lambda_{\rm ex} \sim 90 \,\mathrm{MeV}$. These sectors all have six light fermions, so a strong first order phase transition occurs for all exotic sectors at this temperature. 
+In every exotic sector the fermion masses are exceptionally light: their masses are generated by dimension six operators with the Higgs integrated out as shown in Eq.~(\ref{eqn:exoticFM}) \textcolor{green}{cite an equation from before}, and are therefore all below the confinement scale. The exotic sectors all have identical one-loop running of the QCD gauge coupling, and thus all have approximately the same confinement scale given by $\Lambda_{\rm ex} \sim 90 \,\mathrm{MeV}$. These sectors all have six light fermions, so a strong first order phase transition occurs for all exotic sectors at this temperature. 
 
 The confinement of these sectors directly leads to the production of both baryons and mesons as we have the spontaneous breaking of SU$(6) \,\times$ SU$(6) \rightarrow\,$ SU$(6)$ and thus 35 pseudo-Goldstone bosons. These become relevant in the calculation of gravitational wave signatures through the calculation of the critical phase transition strength, $\alpha_{\infty}$, with $\alpha_{\infty}$ denotes the dividing line between the runaway regime  $(\alpha >\alpha_{\infty})$ and the non-runaway regime $(\alpha <\alpha_{\infty})$. Explicitly \cite{Breitbach:2018ddu, Caprini:2015zlo, Espinosa:2010hh}, 
 \begin{equation}\label{eqn:critPTstrength}
@@ -250,7 +251,7 @@ The confinement of these sectors directly leads to the production of both baryon
 \end{equation} 
 for particles with $n_i$ degrees of freedom that obtain mass through the phase transition. 
 
-The masses obtained through the phase transition can be approximated through the use of a generalization of the Gell-Mann--Oakes--Renner relation \draftnote{Also cite Gell-Mann et al} \cite{Schwartz:2013pla},
+The masses obtained through the phase transition can be approximated through the use of a generalization of the Gell-Mann--Oakes--Renner relation \textcolor{green}{Also cite Gell-Mann et al} \cite{Gell-Mann,Schwartz:2013pla},
 \begin{equation}\label{eqn:gmor}
 m^2_{\pi} = \frac{V^3}{F^2_{\pi}}(m_u + m_d),
 \end{equation}
@@ -258,7 +259,7 @@ where $V \sim \Lambda_{QCD}$, $F_\pi$ is the pion decay constant. So, for mesons
 \begin{equation}
 m_{\pi}^i \sim \sqrt{\frac{m_1^i+m_2^i}{m_u + m_d}} m_{\pi}.
 \end{equation}
-\draftnote{What are $m_a^i$? Is this the right formula,isn't $V$ and $f_\pi$ different from the SM to the $i$th exotic sector? Also, how do you compute $\Delta m$ when you have a different set of particles inside (pions) as outside (quarks) the bubble?  } Ultimately, calculating the critical phase transition strength for each sector using Eq. (\ref{eqn:critPTstrength}) indicates that every sector has a phase transition in the runaway regime. Thus, all exotic sectors have strong first order phase transitions that lead to runaway bubble walls.
+\textcolor{red}{What are $m_a^i$? Is this the right formula,isn't $V$ and $f_\pi$ different from the SM to the $i$th exotic sector? Also, how do you compute $\Delta m$ when you have a different set of particles inside (pions) as outside (quarks) the bubble?  } Ultimately, calculating the critical phase transition strength for each sector using Eq.~(\ref{eqn:critPTstrength}) indicates that every sector has a phase transition in the runaway regime. Thus, all exotic sectors have strong first order phase transitions that lead to runaway bubble walls.
 
 
 \section{Constraints}
@@ -267,44 +268,44 @@ m_{\pi}^i \sim \sqrt{\frac{m_1^i+m_2^i}{m_u + m_d}} m_{\pi}.
 \begin{figure}
 \centering
 \includegraphics[width=0.45\textwidth]{neff.png}
-\label{fig:Neff}
 \hfill
 \caption{$\Delta N_{eff}$ as a function of relativistic degrees of freedom in a fully decoupled hidden sector ($g_h$) and the temperature ratio of said sector. Contours set $\Delta N_{eff}$ to (0.01, 0.03,  0.1,  0.5) as the dashed lines, from left to right. Most stringent current $N_{eff}$ bounds shade in purple. 
 }
+\label{fig:neff}
 \end{figure}
 
 
-In general, the multi-hidden sector models explored here feature feature of huge number of (nearly) massless degrees of freedom. Dark photons, neutrinos, and the like abound in these sectors and, assuming a relatively high reheat temperature, the leptons, quarks, and baryons of these sectors are can easily be relativistic. In $N$naturalness this feature is realized quite dramatically: each of the thousands (or millions or billions) of sectors possess relativistic degrees of freedom. The presence of these particles can have two main effects: extra relativistic particles can alter the expansion history of the universe through changes to the energy density or hidden sectors can feature annihilations that reheat the photons or neutrinos of our sector near Big Bang Nucleosynthesis (BBN) and affect the light element abundances. The effective number of neutrino species, $N_{eff}$, describes these contributions and, as such, is the strictest constraint that must be dealt with when studying these type of multi-phase transition models. 
+In general, the multi-hidden sector models explored here feature feature of huge number of (nearly) massless degrees of freedom. Dark photons, neutrinos, and the like abound in these sectors and, assuming a relatively high reheat temperature, the leptons, quarks, and baryons of these sectors are can easily be relativistic. In $N$naturalness this feature is realized quite dramatically: each of the thousands (or millions or billions) of sectors possess relativistic degrees of freedom. The presence of these particles can have two main effects: extra relativistic particles can alter the expansion history of the universe through changes to the energy density or hidden sectors can feature annihilations that reheat the photons or neutrinos of our sector near Big Bang Nucleosynthesis (BBN) and affect the light element abundances. The effective number of neutrino species, $N_{eff}$, is impacted by these contributions and, as such, is the strictest constraint that must be dealt with when studying these type of multi-phase transition models. 
 
-\draftnote{This is not the physics described in the previous paragraph} The SM predicts that $N^{SM}_{eff} = 3.046$ \cite{Mangano:2005cc}. This is in good agreement with bounds from studies of the Cosmic Microwave Background (CMB) by Planck combined with bayon acoustic oscillations (BAO) measurements \cite{Aghanim:2018eyx}:
+\textcolor{yellow}{This is not the physics described in the previous paragraph} The SM predicts that $N^{SM}_{eff} = 3.046$ \cite{Mangano:2005cc}. This is in good agreement with bounds from studies of the Cosmic Microwave Background (CMB) by Planck combined with bayon acoustic oscillations (BAO) measurements \cite{Aghanim:2018eyx}:
 \begin{equation}\label{eqn:NeffBounds}
 N_{eff} = 2.99^{+0.34}_{-0.33}.
 \end{equation}
-\draftnote{Are these $1\sigma$? Maybe show the 95\% interval instead?}
+\textcolor{green}{Are these $1\sigma$? Maybe show the 95\% interval instead?These are $2\sigma$}
 Various different assumptions about the history of the universe can be made and different data sets can be chosen to obtain slightly different results \cite{Breitbach:2018ddu} --- for the purposes of this exploratory work, wading through this landscape is unnecessary.
 
 For fully decoupled sectors that never enter (or reenter) thermal equilibrium with our sector, we obtain additional contributions to $N^{SM}_{eff}$ \cite{Breitbach:2018ddu}
 \begin{equation}\label{eqn:DeltaNeff1hs}
 \Delta N_{eff} = \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_h \xi_h^4.
 \end{equation} 
-Here, $g_h$ represents the effective number of relativistic degrees of freedom for the hidden sector when the hidden sector has a temperature $T_h = \xi_h T_\gamma$. Contours for Eq. (\ref{eqn:DeltaNeff1hs}) at various temperature ratios as well as CMB bounds are plotted in Fig.~\ref{fig:Neff}. We take this approach and generalize it to include many additional sectors:
+Here, $g_h$ represents the effective number of relativistic degrees of freedom for the hidden sector when the hidden sector has a temperature $T_h = \xi_h T_\gamma$. Contours for Eq. (\ref{eqn:DeltaNeff1hs}) at various temperature ratios as well as CMB bounds are plotted in Fig.~\ref{fig:neff}. We take this approach and generalize it to include many additional sectors:
 \begin{equation}\label{eqn:DeltaNeff}
 \Delta N_{eff} = \sum_i \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_{i} \xi^4_{i}.
 \end{equation} 
 
-As Fig.~\ref{fig:Neff} \draftnote{Why is it figure V?} demonstrates, sectors with a temperature ratio above $\xi_h\sim 0.5$ with even a couple of relativistic particles are immediately excluded by CMB constraints. Accordingly, the additional sectors present in this project must be heated to a much smaller fraction of our own sector's temperature. \draftnote{$\xi=0.5$ and $g=2$ is not excluded.}
+As Fig.~\ref{fig:neff} \textcolor{green}{Why is it figure V?} demonstrates, sectors with a temperature ratio above $\xi_h\sim 0.6$ with even a couple of relativistic particles are immediately excluded by CMB constraints. Accordingly, the additional sectors present in this project must be heated to a much smaller fraction of our own sector's temperature. \textcolor{green}{$\xi=0.5$ and $g=2$ is not excluded.}
 
 \subsection{Exotic Sector Contributions}
 
 The original $N$naturalness paper focused on the (stronger) $N_{eff}$ constraints from the additional standard sectors and ignored the exotic sectors altogether \cite{Arkani-Hamed:2016rle}; in contrast, we take the opposite approach. Since we're more interested in a more general scenario with multiple dark phase transitions, we focus in on whether zero vev sectors can dodge these $N_{eff}$ bounds.
 
-Within the framework of SM-like particle content (save the higgs mass parameter), our exotic sectors feature at most 106.75 effective degrees of freedom at high energies: 72 from quarks,  12 from charged leptons, 6 from neutrinos, 16 from gluons, 2 from photons, 6 from W bosons (no longitudinal modes due to a no symmetry breaking), 4 from the higgs sector (again, no symmetry breaking leads to 3 additional modes), for a total of 118 degress of freedom. Scaling the fermionic contributions by $7/8$ gives us 106.75 effective relativistic degrees of freedom.  After the higgses freeze out, 4 degrees of freedom are lost; when the QCD phase transition occurs 35 bosonic degrees of freedom are gained while 72 fermionic are lost, leaving 56.75 effective degrees of freedom. Since all additional sectors are colder than our own \draftnote{Aren't they always colder than our own?} by the time photon decoupling occurs ($T_\gamma \sim 0.39 \,\ev$), the pions of all of these sectors will, in accordance with Eq. (\ref{eqn:gmor}), have a much higher mass than the sector temperature and thus will have frozen out long before --- leaving at most $11.25$ effective degrees of freedom per sector \draftnote{From photons and neutrinos? What about $\Delta N_{eff}$ constraints from BBN? This would be a much higher (SM) temperature.} .
+Within the framework of SM-like particle content (save the higgs mass parameter), our exotic sectors feature at most 106.75 effective degrees of freedom at high energies: 72 from quarks,  12 from charged leptons, 6 from neutrinos, 16 from gluons, 2 from photons, 6 from W bosons (no longitudinal modes due to a no symmetry breaking), 4 from the higgs sector (again, no symmetry breaking leads to 3 additional modes), for a total of 118 degress of freedom. Scaling the fermionic contributions by $7/8$ gives us 106.75 effective relativistic degrees of freedom.  After the higgses freeze out, 4 degrees of freedom are lost; when the QCD phase transition occurs 35 bosonic degrees of freedom are gained while 72 fermionic are lost, leaving 56.75 effective degrees of freedom. Since all additional sectors are colder than our own \textcolor{yellow}{Aren't they always colder than our own? Yes, they are.} by the time photon decoupling occurs ($T_\gamma \sim 0.39 \,\ev$), the pions of all of these sectors will, in accordance with Eq.~(\ref{eqn:gmor}), have a much higher mass than the sector temperature and thus will have frozen out long before --- leaving at most $11.25$ effective degrees of freedom per sector \textcolor{red}{From photons and neutrinos? What about $\Delta N_{eff}$ constraints from BBN? This would be a much higher (SM) temperature.} .
 
 Coupling the number of effective degrees of freedom per sector with the energy density scaling of $\sim 1/m_H^4$ found in the zero vev sectors leads to tiny temperature ratios. Assuming a reheating temperature of $100$ GeV and a completely uniform distribution of sectors, the temperature of the first exotic sector is slightly more than $6\%$ of our sector at reheating. Applying Eq.~(\ref{eqn:DeltaNeff}) to this particular situation gives us:
 \begin{equation}
-\Delta N_{eff} = \sum_i \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_{i} \left(\frac{0.06}{i^2}\right)^4 \sim 10^{-4}.
+\Delta N_{eff} = \sum_i \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_{i} \left(\frac{(T_{RH_{E1}}/T_{RH})}{i^2}\right)^4 \sim 10^{-4},
 \end{equation}     
-\draftnote{Where does the $0.06$ come from?} This is dominated by $i=1$, the sector with the lowest Higgs mass (and thus the most energy density) gives us a contribution of $\mathcal{O} (10^{-4})$. Evolving the sectors thermal histories forward in time to the recombination era gives us a slightly larger value, but still of order $\mathcal{O}(10^{-4})$; well under current CMB bounds. 
+with $T_{RH_{E1}}/T_{RH}$ being the ratio of the reheat temperatures of the 1st exotic sector and our own sector ($0.06$ in standard $N$naturalness with $r = 1$).  \textcolor{green}{Where does the $0.06$ come from?} This is dominated by $i=1$, the sector with the lowest Higgs mass (and thus the most energy density) gives us a contribution of $\mathcal{O} (10^{-4})$. Evolving the sectors thermal histories forward in time to the recombination era gives us a slightly larger value, but still of order $\mathcal{O}(10^{-4})$; well under current CMB bounds. 
 
 It should be noted that modifying the exotic sectors' structure (e.g. adjusting the exotic sectors to have a lower higgs mass squared or clustering multiple hidden sectors close to the first exotic one) leads to a $\Delta N_{eff}$ contribution that is larger than the base $N$naturalness case. This increase is not excluded by current bounds, indicating a large degree of liberty in the structure and number of exotic hidden sectors.
 
@@ -312,7 +313,7 @@ It should be noted that modifying the exotic sectors' structure (e.g. adjusting 
 
 The generalization of possible reheating mechanisms mentioned in section \ref{sec:nn} --- where the reheating mechanism no longer depends on the higgs' mass parameter of a given sector --- opens up a wide range of hidden sectors for study. Specifically, this allow mirror sectors with large vevs to reheat to significant energy densities and thus produce gravitational waves with enough power to be detected. Crucially, despite this analysis being limited to mirror sectors with large higgs' masses this analysis pertains to any strong, confining phase transition at high scales.
 
-Since $N_{eff}$ constraints remain our strongest cosmological bounds for massive standard sectors, our starting point for exploring the limits of high transition temperatures is Eq. (\ref{eqn:DeltaNeff}). Assuming heavy, standard sectors we can saturate the bounds of Eq. (\ref{eqn:NeffBounds}) and solve for the maximum energy density allowed for any number of sectors:
+Since $N_{eff}$ constraints remain our strongest cosmological bounds for massive standard sectors, our starting point for exploring the limits of high transition temperatures is Eq.~(\ref{eqn:DeltaNeff}). Assuming heavy, standard sectors (with the only relativistic particles being photons and neutrinos) we can saturate the bounds of Eq.~(\ref{eqn:NeffBounds}) and solve for the maximum energy density allowed for any number of sectors:
 \begin{equation}\label{eqn:energyDensityAllowed}
 \begin{split}
 \rho_i &\sim 0.25 \rho_{SM} \,\,\,\,\, \mathrm{1}\,\, \mathrm{hidden}\,\, \mathrm{sector},
@@ -325,7 +326,7 @@ Since $N_{eff}$ constraints remain our strongest cosmological bounds for massive
 \end{split}
 \end{equation}
 
-Using these restrictions, we can examine the behaviour of standard sectors with a much larger vev than our own. In terms of the $N$naturalness framework, this consisted of looking at various different sectors above the critical index, as mentioned in Sec. \ref{sec:dQCD}. The signals for both the maximal case ($10^{16}$ limit) and several other high transition temperatures (involving sectors $i > 10^{10}$) scenarios are shown in Sec. \ref{sec:signals}. \draftnote{This assumes that only photons and neutrinos are relativistic?}
+Using these restrictions, we can examine the behaviour of standard sectors with a much larger vev than our own. In terms of the $N$naturalness framework, this consisted of looking at various different sectors above the critical index, as mentioned in Sec.~\ref{sec:dQCD}. The signals for both the maximal case ($10^{16}$ limit) and several other high transition temperatures (involving sectors $i > 10^{10}$) scenarios are shown in Sec.~\ref{sec:gw}. \textcolor{yellow}{This assumes that only photons and neutrinos are relativistic? Yes.}
 
 \section{Gravitational Wave Signals}
 
