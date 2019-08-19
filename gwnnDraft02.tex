@@ -85,14 +85,79 @@ Because gravity is universal, gravitational waves can allow us to probe hidden s
 
 In this work, we explore the possibility of having multiple decoupled hidden sectors. Large numbers of hidden sectors can solve the hierarchy problem as in the Dvali Redi model~\cite{Dvali:2009ne} or in the more recently explored Nnaturalness~\cite{Arkani-Hamed:2016rle} framework, or in the orbifold Higgs models (maybe?\cite{}). They can also be motivated by dark matter considerations (dynamical dark matter? others?). 
 
-Motivated by solutions to the hierachy problem, we consider hidden sectors with the same particle content as the Standard Model that have all dimensionless couplings (defined at some high scale) equal to those of the Standard Model. The only parameter that varies across sectors is the dimension two Higgs mass squared parameter. This simple ansatz can lead to very rich phenomenology and interesting gravitational wave spectra, but we stress that it is only a starting point for exploring the space of theories with multiple hidden sectors.
+Motivated by solutions to the hierachy problem, we consider hidden sectors with the same particle content as the Standard Model that have all dimensionless couplings (defined at some high scale) equal to those of the Standard Model. The only parameter that varies across sectors is the dimension two Higgs mass squared parameter, $m_H^2$. This simple ansatz can lead to very rich phenomenology and interesting gravitational wave spectra, but we stress that it is only a starting point for exploring the space of theories with multiple hidden sectors.
+
+In this setup, there are two qualitatively different kinds of sectors:
+\begin{itemize}
+\item \textbf{Standard Sectors}: Those with $m_H^2 < 0$ where electroweak symmetry is broken by the vacuum expectation value (VEV) of a fundamental scalar. As in~\cite{Arkani-Hamed:2016rle}, we assume that the standard sector with the smallest absolute value of $m_H^2$ is the Standard Model.
+\item \textbf{Exotic Sectors}: Those with  $m_H^2 > 0$. In this case, electroweak symmetry breaking is preserved below the mass of the Higgs, and broken by the confinement of QCD~\cite{}.
+\end{itemize}
+Cosmological observations, particularly limits on extra relativistic degrees of freedom at the time of Big Bang Nucleosynthesis~\cite{} and the time fo the formation of the cosmic microwave background (CMB)~\cite{}, require that most of the energy in the universe is in the Standard Model sector as we will quantify. Therefore, the hidden sectors cannot be in thermal equilibrium at any time, and the physics of reheating must dump energy preferentially in the Standard Model sector. This can be accomplished in multifield inflation models~\cite{} and with the reheaton method~\cite{Arkani-Hamed:2016rle}. We will also explore alternative parameterizations of reheating that satisfy this condition.
+
+In all the above models, there is some energy in the hidden sectors, and these sectors undergo thermal evolution independent of the SM sector. If their initial reheating temperature is above their weak scale, the standard sectors will undergo phase transitions associated with the breaking of electroweak symmetry and with confinement of QCD. The exotic sectors will also undergo a phase transition when QCD confines and electroweak symmetry is broken simultaneously. The condition for these transitions to leave imprints on the stochastic gravitational wave spectrum is that they strongly first order phase transitions (SFOPT)~\cite{}. This does not occur at either the electroweak or QCD phase transition in the SM, but as we will show, it does happen in some standard sectors, and in \textit{all} exotic sectors that reheat above the QCD phase transition. 
+
+
+
+This work is organized as follows...
+
+
+
  
 \section{Particle Setup}
 \label{sec:nn}
 
-Beginning with the work of Pedro Schwaller \cite{Schwaller:2015tja} and continuing through the work of many others \cite{everyoneelse}, strong first order phase transitions for SU(N) dark sectors with arbitrary numbers of flavours have been explored as a source of gravitational waves. Here, we look to generalize this study to include classes of models that feature multiple dark sectors that undergo gravitational wave producing phase transitions. The multiple sets of gravitational waves produced in these types of models superimpose: potentially creating signals that deviate from the typical phase transition gravitational wave spectrum. For any multi dark sector model, the behaviour of the QCD phase transition for each sector must be understood --- sectors that feature a weak cross-over transition do not generate the sought after gravitational wave signatures. We use $N$naturalness as an example framework since it features $N$ distinct QCD sectors at a wide range of possible scales; this allows us to probe a wide range potential signature of this class of models. As an additional bonus, different sectors (``standard" and ``exotic", as will be outlined later in this section) can lead to different types of symmetry breaking outlined in Sec. \ref{sec:dQCD}.
+%Beginning with the work of Pedro Schwaller \cite{Schwaller:2015tja} and continuing through the work of many others \cite{everyoneelse}, strong first order phase transitions for SU(N) dark sectors with arbitrary numbers of flavours have been explored as a source of gravitational waves. Here, we look to generalize this study to include classes of models that feature multiple dark sectors that undergo gravitational wave producing phase transitions. The multiple sets of gravitational waves produced in these types of models superimpose: potentially creating signals that deviate from the typical phase transition gravitational wave spectrum. For any multi dark sector model, the behaviour of the QCD phase transition for each sector must be understood --- sectors that feature a weak cross-over transition do not generate the sought after gravitational wave signatures. We use $N$naturalness as an example framework since it features $N$ distinct QCD sectors at a wide range of possible scales; this allows us to probe a wide range potential signature of this class of models. As an additional bonus, different sectors (``standard" and ``exotic", as will be outlined later in this section) can lead to different types of symmetry breaking outlined in Sec. \ref{sec:dQCD}.
 
-\subsection{NNaturalness}
+%\subsection{NNaturalness}
+
+We consider the following Lagrangian as in~\cite{Arkani-Hamed:2016rle}:
+\begin{equation}
+{\cal L} = \sum_{i=-N/2}^{N/2} {\cal L}_i,
+\end{equation}
+with ${\cal L}_0 = {\cal L}_{\rm SM}$ being the Standard Model Lagrangian, and ${\cal L}_i$ being a copy of the SM Lagrangian with different fields, but with all dimensionless parameters the same. Each of the Lagrangians does contain a dimension operator:
+\begin{equation}
+{\cal L}_i \subset  - \left(m_H^2\right)_i H_i^\dagger H_i  
+\end{equation}
+where $H_i$ is a Higgs field in each sector, and the mass term is parametrically given by
+\begin{equation}\label{eqn:massParam}
+\left(m_H^2\right)_i \sim -\frac{\Lambda_H^2}{N}(2i+r),
+\end{equation}
+where $\Lambda$ is some high scale cutoff, $N$ is the number of sectors, and $r$ mass parameter in the SM in units of $\Lambda_H^2/N$. This setup solves the hierarchy problem if $r \sim \mathcal{O}(1)$\footnote{Constraints require $r$ to be somewhat smaller than 1.} and we the Higgs masses in the different sectors as randomly distributed~\cite{Arkani-Hamed:2016rle}. We have taken for simplicity that there equal numbers sectors with positive and negative $m_H^2$, but this is not nessesary. This Nnaturalness framework can be generalized: the various sectors can possess a wide range of particle content that can be freely selected by the model builder. The one exception to this is that ``our" sector must consist of the Standard Model.
+
+From the above Lagrangians, the Higgs in sectors with $i \geq 0$ will get a vev given by:
+\begin{equation}\label{eqn:vevs}
+v^i = m^i_H/\sqrt{\lambda_i} ~ \sqrt{\frac{2i + r}{N}}\left(\frac{\Lambda_H}{\lambda}\right),
+\end{equation}
+$\lambda_i$ is the quartic coefficient of the scalar potential and is the same across all sectors. 
+%The parameter $r$ is a way to adjust the tuning of the model: adjusting $r$ away from 1 (which leads to purely uniform spacing) allows us to make a larger gap between our sector and the next one. Within this work, we looked at variants on this sort of tuning including non-uniform distributions and clustered sector effects; these ideas are discussed in Sec. \ref{sec:gw}.   
+%
+%
+%
+%
+%$N$naturalness is a model framework that looks to solve the hierarchy problem through the introduction of $N$ mutually non-interacting sectors \cite{Arkani-Hamed:2016rle}. The framework itself is very general: the various sectors can possess a wide range of particle content that can be freely selected by the model builder. The one exception to this is that ``our" sector must consist of the Standard Model. For simplicity, the original paper takes all additional new sectors to be copies of the SM (with the same gauge groups and Yukawa structure); however the Higgs mass parameters of each sector are allowed to taken on values distributed between $-\Lambda_H^2$ and $\Lambda^2_H$, with $\Lambda_H$ being the scale that cuts off quadratic divergences.
+%
+%This construction leads to sectors that are automatically accidentally tuned to the $1/N$ level, leading to a sector with a mass parameter $m_H^2 \sim \Lambda_H^2/N$. The sector with the smallest non-zero vacuum expectation value (vev) as ``our" sector --- the SM sector. It should be noted that the values of $m_H^2$ pass through zero, resulting in effectively 2 types of sectors: ``standard" sectors like our own with a negative Higgs mass parameter squared, possess a vev, and exhibit electroweak symmetry breaking and ``exotic" sectors with a positive Higgs mass parameter squared that thus feature no electroweak symmetry breaking and a zero vev. 
+%
+%Keeping with the original convention, we write our mass parameter as
+%\begin{equation}\label{eqn:massParam}
+%\left(m_H^2\right)_i = -\frac{\Lambda_H^2}{N}(2i+r),
+%\end{equation}
+%where $i$ denotes the sector ($-\frac{N}{2}\leq i \leq \frac{N}{2}$). $i = 0$ is the sector that possess the smallest vev and is thus ``our" SM sector. \textcolor{green}{Write an equation that shows how the vev scales with $i$.} The vev for each standard sector is given explicitly by
+%\begin{equation}\label{eqn:vevs}
+%v^i = m^i_H/\sqrt{\lambda_i} = \sqrt{\frac{2i + r}{N}}\left(\frac{\Lambda_H}{\lambda}\right),
+%\end{equation}
+%$\lambda_i$ is the quartic coefficient of the scalar potential and is the same across all sectors. The parameter $r$ is a way to adjust the tuning of the model: adjusting $r$ away from 1 (which leads to purely uniform spacing) allows us to make a larger gap between our sector and the next one. Within this work, we looked at variants on this sort of tuning including non-uniform distributions and clustered sector effects; these ideas are discussed in Sec. \ref{sec:gw}.   
+%
+%As mentioned above, half of all sectors in this model feature a Higgs mass parameter such that $m_H^2 < 0$. 
+These ``standard sectors'' feature electroweak symmetry breaking just like in the SM, however the vevs produced scale with the changing mass parameter: $v_i \sim v_{\rm SM}\sqrt{i}$. As the masses for particles in these sectors scale with the vev, this leads to the masses of the $W$, $Z$ and fermions within each sector increasing with $i$. The consequences of this on the confinement scale of QCD in the $i \geq 1$ sectors is further discussed in Sec. \ref{sec:dQCD}. 
+
+The remaining ``exotic sectors'' within this model provide a radical departure from our own. $m_H^2 > 0$ leads to no vev for the Higgs, and electroweak symmetry is only broken at very low scales due to the phase transition from free quarks to confinement at the QCD scale $\Lambda_{QCD}$~\cite{}, and the masses of the $W$ and $Z$ are comparable to those of QCD resonances. The mass of fundamental fermions are produced via four-fermion interactions generated after integrating out the SU$(2)$ Higgs multiplet. This leads to very light fermions: 
+\begin{equation}\label{eqn:exoticFM}
+m_f \sim y_f y_t \Lambda_{QCD}^3/(m^2_H)_i \leq 100 \,\ev,
+\end{equation}
+with $y_f$ representing the Yukawa coupling to fermion $f$. As we will see, the extremely light quarks that appear in these sectors dramatically change the nature of the QCD phase transition --- unlike the SM, the transition is strongly first order. Again, this is further developed in Sec. \ref{sec:dQCD}. Crucially, this results in the production of gravitational waves. This is the physical signature we're interested in exploring within this paper; the calculation and results are presented in Sec. \ref{sec:gw}. 
+
+\subsection{Reheating N Sectors}
 
 \begin{figure*}[tb]
 \centering
@@ -105,30 +170,6 @@ Beginning with the work of Pedro Schwaller \cite{Schwaller:2015tja} and continui
 }
 \label{fig:reheatonDecays}
 \end{figure*}
-
-$N$naturalness is a model framework that looks to solve the hierarchy problem through the introduction of $N$ mutually non-interacting sectors \cite{Arkani-Hamed:2016rle}. The framework itself is very general: the various sectors can possess a wide range of particle content that can be freely selected by the model builder. The one exception to this is that ``our" sector must consist of the Standard Model. For simplicity, the original paper takes all additional new sectors to be copies of the SM (with the same gauge groups and Yukawa structure); however the Higgs mass parameters of each sector are allowed to taken on values distributed between $-\Lambda_H^2$ and $\Lambda^2_H$, with $\Lambda_H$ being the scale that cuts off quadratic divergences.
-
-This construction leads to sectors that are automatically accidentally tuned to the $1/N$ level, leading to a sector with a mass parameter $m_H^2 \sim \Lambda_H^2/N$. The sector with the smallest non-zero vacuum expectation value (vev) as ``our" sector --- the SM sector. It should be noted that the values of $m_H^2$ pass through zero, resulting in effectively 2 types of sectors: ``standard" sectors like our own with a negative Higgs mass parameter squared, possess a vev, and exhibit electroweak symmetry breaking and ``exotic" sectors with a positive Higgs mass parameter squared that thus feature no electroweak symmetry breaking and a zero vev. 
-
-Keeping with the original convention, we write our mass parameter as
-\begin{equation}\label{eqn:massParam}
-\left(m_H^2\right)_i = -\frac{\Lambda_H^2}{N}(2i+r),
-\end{equation}
-where $i$ denotes the sector ($-\frac{N}{2}\leq i \leq \frac{N}{2}$). $i = 0$ is the sector that possess the smallest vev and is thus ``our" SM sector. \textcolor{green}{Write an equation that shows how the vev scales with $i$.} The vev for each standard sector is given explicitly by
-\begin{equation}\label{eqn:vevs}
-v^i = m^i_H/\sqrt{\lambda_i} = \sqrt{\frac{2i + r}{N}}\left(\frac{\Lambda_H}{\lambda}\right),
-\end{equation}
-$\lambda_i$ is the quartic coefficient of the scalar potential and is the same across all sectors. The parameter $r$ is a way to adjust the tuning of the model: adjusting $r$ away from 1 (which leads to purely uniform spacing) allows us to make a larger gap between our sector and the next one. Within this work, we looked at variants on this sort of tuning including non-uniform distributions and clustered sector effects; these ideas are discussed in Sec. \ref{sec:gw}.   
-
-As mentioned above, half of all sectors in this model feature a Higgs mass parameter such that $m_H^2 < 0$. These sectors feature electroweak symmetry breaking just like in the SM, however the vevs produced scale with the changing mass parameter: $v_i \sim v\sqrt{i}$ (explicitly demonstrated in Eq.~(\ref{eqn.vevs}) As the masses for particles in these sectors scale with the vev, this leads to the masses of particles within each sector strictly increasing with $i$. The consequences of this on the QCD of $i \geq 1$ sectors is further discussed in Sec. \ref{sec:dQCD}. 
-
-The remaining sectors within this model provide a radical departure from our own. $m_H^2 > 0$ leads to no vev and electroweak symmetry is only broken at very low scales due to the phase transition from free quarks to confinement at the QCD scale $\Lambda_{QCD}$. As a result, fermion masses are produced via four-fermion interactions generated after integrating out the SU$(2)$ Higgs multiplet. This leads to very light fermions: 
-\begin{equation}\label{eqn:exoticFM}
-m_f \sim y_f y_t \Lambda_{QCD}^3/(m^2_H)_i \leq 100 \,\ev,
-\end{equation}
-with $y_f$ representing the Yukawa coupling to fermion $f$. The extremely light quarks that appear in these sectors dramatically change the nature of the QCD phase transition --- unlike the SM, the transition is strongly first order. Again, this is further developed in Sec. \ref{sec:dQCD}. Crucially, this results in the production of gravitational waves. This is the physical signature we're interested in exploring within this paper; the calculation and results are presented in Sec. \ref{sec:gw}. 
-
-\subsection{Reheating N Sectors}
 
 A key issue within $N$naturalness is how to predominantly gift energy density to our own sector so as to not be immediately excluded by number of effective neutrinos ($N_{eff}$) bounds. This is done through the introduction of a post-inflationary field called the ``reheaton". After inflation, the reheaton field possess the majority of the energy density of the Universe. Although this field can generically be either by bosonic or fermionic, we reduce our scope to a scalar reheaton $\phi$. Our focus is primarily the production of gravitational waves from multiple sectors: \textcolor{yellow}{What does the following mean?} a fermion reheaton doesn't change the scaling of the energy density of the exotic sectors and thus doesn't affect expected gravitational wave profiles.
 
