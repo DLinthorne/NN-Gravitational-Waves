@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 AUG 2019 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 AUG 2019 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -360,10 +360,16 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 77.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 93.
 
-Package natbib Warning: Citation `everyoneelse' on page 1 undefined on input li
-ne 94.
-
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 93.
+ [1
+Non-PDF special ignored!{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/upd
+map/pdftex.map}]
 Package epstopdf Info: Source file: <standardDecay.eps>
 (epstopdf)                    date: 2019-08-16 11:41:13
 (epstopdf)                    size: 138768 bytes
@@ -372,14 +378,15 @@ Package epstopdf Info: Source file: <standardDecay.eps>
 (epstopdf)                    size: 5255 bytes
 (epstopdf)             Command: <repstopdf --outfile=standardDecay-eps-converte
 d-to.pdf standardDecay.eps>
-(epstopdf)             \includegraphics on input line 101.
+(epstopdf)             \includegraphics on input line 166.
 Package epstopdf Info: Output file is already uptodate.
-<standardDecay-eps-converted-to.pdf, id=1, 211.79124pt x 126.4725pt>
+
+<standardDecay-eps-converted-to.pdf, id=19, 211.79124pt x 126.4725pt>
 File: standardDecay-eps-converted-to.pdf Graphic file (type pdf)
 
 <use standardDecay-eps-converted-to.pdf>
 Package pdftex.def Info: standardDecay-eps-converted-to.pdf used on input line 
-101.
+166.
 (pdftex.def)             Requested size: 203.99689pt x 121.82326pt.
 Package epstopdf Info: Source file: <exoticDecay.eps>
 (epstopdf)                    date: 2019-08-16 11:41:13
@@ -389,119 +396,96 @@ Package epstopdf Info: Source file: <exoticDecay.eps>
 (epstopdf)                    size: 5816 bytes
 (epstopdf)             Command: <repstopdf --outfile=exoticDecay-eps-converted-
 to.pdf exoticDecay.eps>
-(epstopdf)             \includegraphics on input line 102.
+(epstopdf)             \includegraphics on input line 167.
 Package epstopdf Info: Output file is already uptodate.
 
-<exoticDecay-eps-converted-to.pdf, id=2, 323.2075pt x 182.6825pt>
+<exoticDecay-eps-converted-to.pdf, id=20, 323.2075pt x 182.6825pt>
 File: exoticDecay-eps-converted-to.pdf Graphic file (type pdf)
 
 <use exoticDecay-eps-converted-to.pdf>
-Package pdftex.def Info: exoticDecay-eps-converted-to.pdf used on input line 10
-2.
+Package pdftex.def Info: exoticDecay-eps-converted-to.pdf used on input line 16
+7.
 (pdftex.def)             Requested size: 203.99689pt x 115.30241pt.
- [1
-Non-PDF special ignored!{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/upd
-map/pdftex.map}]
-
-LaTeX Warning: Reference `eqn.vevs' on page 2 undefined on input line 124.
-
-[2 <./standardDecay-eps-converted-to.pdf> <./exoticDecay-eps-converted-to.pdf>]
-<columbia.png, id=46, 692.5875pt x 328.22626pt>
+ [2]
+<columbia.png, id=28, 692.5875pt x 328.22626pt>
 File: columbia.png Graphic file (type png)
  <use columbia.png>
-Package pdftex.def Info: columbia.png used on input line 170.
+Package pdftex.def Info: columbia.png used on input line 212.
 (pdftex.def)             Requested size: 510.0pt x 241.70166pt.
 
 
-Package natbib Warning: Citation `lattice' on page 3 undefined on input line 17
-8.
+Package natbib Warning: Citation `lattice' on page 3 undefined on input line 22
+0.
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+[3 <./standardDecay-eps-converted-to.pdf> <./exoticDecay-eps-converted-to.pdf>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 []\OT1/cmr/m/n/10 As men-tioned in the pre-vi-ous sec-tions (see
  []
 
 [4 <./columbia.png>]
-Underfull \hbox (badness 3333) in paragraph at lines 243--244
+Underfull \hbox (badness 3333) in paragraph at lines 285--286
 []\OT1/cmr/m/n/10 However, if we move away from the stan-dard
  []
 
-<neff.png, id=58, 702.625pt x 472.76625pt>
+[5] <neff.png, id=63, 702.625pt x 472.76625pt>
 File: neff.png Graphic file (type png)
  <use neff.png>
-Package pdftex.def Info: neff.png used on input line 271.
+Package pdftex.def Info: neff.png used on input line 314.
 (pdftex.def)             Requested size: 229.49844pt x 154.41908pt.
- [5]
 
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 280.
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 284--287
+Underfull \hbox (badness 1067) in paragraph at lines 327--330
 []\OT1/cmr/m/n/10 Are these $1\OML/cmm/m/it/10 ^^[$\OT1/cmr/m/n/10 ? Maybe show
  the 95% in-ter-val in-
  []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 301--302
+Underfull \hbox (badness 1715) in paragraph at lines 344--345
 []\OT1/cmr/m/n/10 The orig-i-nal $\OML/cmm/m/it/10 N$\OT1/cmr/m/n/10 naturalnes
 s pa-per fo-cused on the
  []
 
-[6 <./neff.png (PNG copy)>] <Nnatral.png, id=65, 803.0pt x 522.95375pt>
+[6 <./neff.png (PNG copy)>] [7] <Nnatral.png, id=71, 803.0pt x 522.95375pt>
 File: Nnatral.png Graphic file (type png)
 
 <use Nnatral.png>
-Package pdftex.def Info: Nnatral.png used on input line 360.
+Package pdftex.def Info: Nnatral.png used on input line 407.
 (pdftex.def)             Requested size: 240.90186pt x 156.88733pt.
- [7]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 365.
-
-<TwoFar.png, id=70, 803.0pt x 522.95375pt>
+ <TwoFar.png, id=72, 803.0pt x 522.95375pt>
 File: TwoFar.png Graphic file (type png)
  <use TwoFar.png>
-Package pdftex.def Info: TwoFar.png used on input line 386.
+Package pdftex.def Info: TwoFar.png used on input line 433.
 (pdftex.def)             Requested size: 229.49844pt x 149.4583pt.
 
-<TwoMed.png, id=71, 803.0pt x 524.96124pt>
+<TwoMed.png, id=73, 803.0pt x 524.96124pt>
 File: TwoMed.png Graphic file (type png)
  <use TwoMed.png>
-Package pdftex.def Info: TwoMed.png used on input line 388.
+Package pdftex.def Info: TwoMed.png used on input line 435.
 (pdftex.def)             Requested size: 229.49844pt x 150.03204pt.
 
-<highest.png, id=72, 803.0pt x 526.96875pt>
+<highest.png, id=74, 803.0pt x 526.96875pt>
 File: highest.png Graphic file (type png)
  <use highest.png>
-Package pdftex.def Info: highest.png used on input line 390.
+Package pdftex.def Info: highest.png used on input line 437.
 (pdftex.def)             Requested size: 229.49844pt x 150.60577pt.
 
-<energydensity.png, id=73, 803.0pt x 524.96124pt>
+<energydensity.png, id=75, 803.0pt x 524.96124pt>
 File: energydensity.png Graphic file (type png)
  <use energydensity.png>
-Package pdftex.def Info: energydensity.png used on input line 392.
+Package pdftex.def Info: energydensity.png used on input line 439.
 (pdftex.def)             Requested size: 229.49844pt x 150.03204pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 400.
 
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 400.
-
-Underfull \hbox (badness 1596) in paragraph at lines 402--404
+Underfull \hbox (badness 1596) in paragraph at lines 449--451
  []\OT1/cmr/bx/n/10 Magnetohydrodynamics con-tri-bu-tions $\OT1/cmr/m/n/10 
 []$:
  []
 
-[8 <./Nnatral.png (PNG copy)>]
+[8 <./Nnatral.png (PNG copy)>] [9 <./TwoFar.png (PNG copy)> <./TwoMed.png (PNG 
+copy)> <./highest.png (PNG copy)> <./energydensity.png (PNG copy)>]
 
-LaTeX Warning: Reference `' on page 9 undefined on input line 430.
+LaTeX Warning: Reference `' on page 10 undefined on input line 477.
 
-(./gwnnDraft02.bbl [9 <./TwoFar.png (PNG copy)> <./TwoMed.png (PNG copy)> <./hi
-ghest.png (PNG copy)> <./energydensity.png (PNG copy)>]
+(./gwnnDraft02.bbl
 Underfull \hbox (badness 1552) in paragraph at lines 96--106
  \OT1/cmr/m/it/9 tice Field The-ory (Lat-tice 2017): Granada, Spain,
  []
@@ -522,13 +506,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5036 strings out of 492995
- 67206 string characters out of 6132704
- 157592 words of memory out of 5000000
- 8489 multiletter control sequences out of 15000+600000
+ 5034 strings out of 492995
+ 67183 string characters out of 6132704
+ 154594 words of memory out of 5000000
+ 8487 multiletter control sequences out of 15000+600000
  12815 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,15n,29p,1385b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,15n,29p,1387b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
@@ -538,23 +522,25 @@ r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/loc
 al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on gwnnDraft02.pdf (10 pages, 719292 bytes).
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti9.pfb>
+Output written on gwnnDraft02.pdf (10 pages, 738950 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 102 compressed objects within 2 object streams
+ 156 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
