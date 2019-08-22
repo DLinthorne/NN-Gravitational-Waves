@@ -5,6 +5,7 @@
 \usepackage{epsfig}
 \usepackage{color}
 \usepackage{slashed}
+\usepackage{soul}
 \graphicspath{{./Figures/}}
 
 
@@ -415,10 +416,10 @@ Sectors other than the SM can be reheated through multifield inflationary theori
 Where $T_{i}$ is the temperature of the $i^{th}$ hidden sector, and $T_{\gamma}$ the temperature of the standard model (assuming radiation domination).
 
 \vspace{1em }
-- first order phase transitions ( strength, scale, origin)
 Right after reheating, the temperatures of the respective sectors are high leading to restoration of a given sector's symmetry.  An example being the SM's $SU(3) \times SU(2) \times U(1)$ symmetry being restored as the scalar potential's vev becomes global minimum. As the sectors cool down their scalar potentials may change, producing a new global vev at which the symmetry will break by an induced phase transition. Depending on the characteristics of the symmetry breaking, the phase transition may be strongly first ordered (SFOPT).  
 
-Once the temperature reaches the critical temperature the SFOPT will occur, at which bubbles of the new phase will start to nucleate. These bubbles will expand, eventually colliding and merging until the entire sector is within the new phase.  These bubbles are discribed by the following Euclidean action
+Once the temperature reaches the critical temperature the SFOPT will occur, at which bubbles of the new phase will start to nucleate. These bubbles will expand, eventually colliding and merging until the entire sector is within the new phase.  These bubbles are described by the following Euclidean action
+
 
 \begin{equation}
 S_{E}(T) = \frac{1}{T}\int d^3x \bigg[\frac{1}{2}(\nabla\phi)^2 + V(\phi,T)  \bigg]
@@ -430,11 +431,28 @@ The amount of energy density dumped into the individual sectors dictates the ene
 \begin{equation}
 \alpha = \frac{\epsilon}{g_{*} \pi^2 (T^{nuc}_{\gamma})^4/30}
 \end{equation}
-\draftnote{What is $\epsilon$?} Assuming that there is a negligible amount of energy being dumped back into the SM radiation bath, which would cause significant reheating of $\rho_{\gamma}$, the latent heat of the PT $\epsilon$ should  approximately be the energy density of the hidden sector going through the PT. $g_{*}$ has weak temperature dependence in a single sector, but when dealing with multiple hidden sectors, $g_{*}$ gains contributions from all $N$ sector's relativistic degrees of freedom, weighted by their respective temperature ratios (energy densities).
+
+\begin{figure}[tb]
+\centering
+\includegraphics[scale=.3]{Nnatral.png} 
+\caption{ All contributions are assumed to be purely from bubble collisions $\Omega_{\phi}$, with $\beta/H  = 10$.  The shaded curves are the power law noise curves calculated from expected sensitivity curves for space-based interferometers and pulsar timing arrays; Lisa ( blue), DECIGO (light blue), BBO (red), SKA 5-year (purple), SKA 10-year (orange), SKA 20-year (green)   }
+\end{figure}
+
+\draftnote{\st{What is $\epsilon$?}} $\epsilon$ is the latent heat released during the phase transition, and is function of the scalar potential. Assuming that there is a negligible amount of energy being dumped back into the SM, which would cause significant reheating of $\rho_{\gamma}$,  $\epsilon$ should approximately be equal to the energy density of the hidden sector going through the PT. $g_{*}$ has weak temperature dependence in a single sector, but when dealing with multiple hidden sectors, $g_{*}$ gains contributions from all $N$ sector's relativistic degrees of freedom, weighted by their respective temperature ratios (energy densities).
 \begin{equation}
 g_{*} = g_{*,\gamma} + \sum_{i = 1}^{N} g_{*,i} (\xi_{i})^4
 \end{equation}
-It will be seen that for models with a significant number of hidden sectors, that the lack of substantial reheating in adjecent sectors will cause their respective $g_{*}$ corrections to become negligible, $g_{*} \approx g_{*,\gamma}$.
+It will be seen that for models with a significant number of hidden sectors, that the lack of substantial reheating in adjacent sectors will cause their respective $g_{*}$ corrections to become negligible, $g_{*} \approx g_{*,\gamma}$. In the case of dark QCD-like $SU(6)$ chiral  phase transitions, such as in the generic Nnatrualness models, The temperature of the phase transition is on the the order of the symmetry breaking scale of the respective sector, $T_{h}^{i} \sim \mathcal{O}(\Lambda_{d})$. Some authors [bai, etc] have looked at calculating $\alpha$ through the low energy effective chiral lagrangian for $SU(6)_{L} \times SU(6)_{R}$ breaking. We take the optimistic scenario, 
+
+\begin{equation}
+\alpha \approx \xi^{4} \approx \bigg( \frac{\Lambda_{d}}{T_{\gamma}^{nuc}}\bigg)^4
+\end{equation}
+
+
+The inverse timescale of the phase transition can be calculated
+\begin{equation}
+\frac{\beta}{H} = T^{nuc}_h \frac{dS_{E}(T)}{dt}\bigg|_{t = t_{nuc}}
+\end{equation}
 
 
 %\section{Signals}
@@ -457,7 +475,7 @@ It will be seen that for models with a significant number of hidden sectors, tha
 Gravitational waves are produced with contributions from different components of the SFOPT's evolution.  The three leading order contributions to the GW power spectrum are as follows:
 \begin{itemize}
 \item \textbf{Scalar field contributions $\Omega_{\phi}$}: Caused by collisions of the bubble walls, the solutions being completely dependent on the scalar field configuration. With efficiency factor $\kappa_{\phi} = 1 - \alpha_{\infty}/\alpha$.
-\item \textbf{Sound wave contributions $\Omega_{v}$}: Sound waves within the plasma after bubble collision will produce $\beta/H$ \draftnote{Define $\beta$ somewhere} enhanced gravitational waves. With efficiency factor $\kappa_{v} \propto \alpha_{\infty}/\alpha$.
+\item \textbf{Sound wave contributions $\Omega_{v}$}: Sound waves within the plasma after bubble collision will produce $\beta/H$ \draftnote{\st{Define $\beta$ somewhere}} enhanced gravitational waves. With efficiency factor $\kappa_{v} \propto \alpha_{\infty}/\alpha$.
 \item \textbf{Magnetohydrodynamics contributions $\Omega_{B}$}: MTG shocks within the plasma, left over from the sound wave propagation, will produce gravitational waves. With efficiency factor $\kappa_{
 turb} \approx 0.1 \kappa_{v} $.
 \end{itemize}
@@ -468,7 +486,7 @@ h^2\Omega_{GW} \approx h^2\Omega_{\phi} + h^2\Omega_{v} + h^2\Omega_{turb}
 In essence, this is a linear combination of the individual spectral shapes weighted by their efficiency factors $\kappa$. As shown in section IV, the mass spectrum from the dark QCD chiral breaking sectors is such that the runaway bubble condition is satisfied ($\alpha >\alpha_{\infty}$). In this case, the efficiency factors for sound wave and MHD contributions tend to zero and the GWs produced are purely from bubble collisions, $h^2\Omega_{GW} \approx h^2\Omega_{\phi}$.  The form of the GW power spectrum at the time of nucleation is given as,
 
 \begin{equation}
-h^2\Omega_{GW} = 7.7\times 10^{-2} \bigg( \frac{\kappa_{\phi} \alpha}{1 + \alpha} \bigg)^2 \bigg( \frac{H}{\beta} \bigg)^2  S(f)
+h^2\Omega_{GW}^* = 7.7\times 10^{-2} \bigg( \frac{\kappa_{\phi} \alpha}{1 + \alpha} \bigg)^2 \bigg( \frac{H}{\beta} \bigg)^2  S(f)
 \end{equation}
 Where we have assumed an optimistic bubble wall velocity of $v \sim c$ for runaway bubbles. $S(f)$ is the  frequency spectrum, and a parametric from has been found through numerical simulations of bubble wall collisions.
 \begin{equation}
@@ -480,7 +498,7 @@ The peak frequency, $f_{p}$ is a function of the temperature of the SM at the ti
 f_{p} = 3.8 \times 10^{-8} \, \textrm{Hz}\, \bigg( \frac{\beta}{H}\bigg)\bigg(\frac{T_{\gamma}}{100 \, \textrm{GeV}}\bigg)\bigg(\frac{g_{*}}{100}\bigg)^{\frac{1}{6}}
 \end{equation}
 
-\draftnote{Define $g_*$} Now that the framework has been laid out for the creation of GW from a single SFOPT, we generalize to multiple sectors going under independent, coherent SFOPT. In the models presented in this paper, we consider a subset of N-hidden sectors that phase transition at a SM temperature of $T_{\gamma}^{i}$. As the GWs propagate in free space, the energy density and frequency spectrum, at the time of production $\Omega_{GW}^{*}(f)$, will redshift to today's value $\Omega_{GW}^{0}(f) = \mathcal{A}\, \Omega_{GW}^{*}((a_{0}/a) f) $. \draftnote{Define $\mathcal{A}$} Assuming that the sectors are completely decoupled before and after their respective SFOPT, the total GW power spectrum that would be measured today is given by the coherent sum,
+\draftnote{\st{Define $g_*$}} Where $g_*$  is calculated using Eq.(12), although, due to the lack of substantial reheating into the hidden sectors, the first term is dominant. Now that the framework has been laid out for the creation of GW from a single SFOPT, we generalize to multiple sectors going under independent, coherent SFOPT. In the models presented in this paper, we consider a subset of N-hidden sectors that phase transition at a SM temperature of $T_{\gamma}^{i}$. As the GWs propagate in free space, the energy density and frequency spectrum, at the time of production $\Omega_{GW}^{*}(f)$, will redshift to today's value $\Omega_{GW}^{0}(f) = \mathcal{A}\, \Omega_{GW}^{*}((a_{0}/a) f) $. \draftnote{\st{Define $\mathcal{A}$}}.The Redshift factor,$\mathcal{A}$, is related to the ratio of scale factors at the time of production and observation, and only scales with the relativistic degrees of freedom.  Assuming that the sectors are completely decoupled before and after their respective SFOPT, the total GW power spectrum that would be measured today is given by the coherent sum,
 
 \begin{equation}
 \Omega_{GW}^{0} =  \sum_{i}^{N} \mathcal{A}^{i}\, \Omega_{GW}^{i,*}((a_{0}/a)_{i} f) 

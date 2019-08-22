@@ -11,7 +11,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: gwnnDraft02Notes.bib
 Database file #2: refs.bib
-Warning--I didn't find a database entry for "everyoneelse"
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "lattice"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
@@ -24,45 +24,45 @@ Control: year (1) truncated
 Control: production of eprint (0) enabled
 Warning--empty journal in Breitbach:2018ddu
 Warning--missing journal in Aghanim:2018eyx
-You've used 14 entries,
+You've used 16 entries,
             5847 wiz_defined-function locations,
-            1740 strings with 18288 characters,
-and the built_in function-call counts, 14258 in all, are:
-= -- 886
-> -- 365
-< -- 89
-+ -- 116
-- -- 86
-* -- 2319
-:= -- 1401
-add.period$ -- 14
-call.type$ -- 14
-change.case$ -- 56
-chr.to.int$ -- 14
-cite$ -- 16
-duplicate$ -- 1337
-empty$ -- 1069
-format.name$ -- 219
-if$ -- 2782
+            1758 strings with 18709 characters,
+and the built_in function-call counts, 16212 in all, are:
+= -- 1022
+> -- 410
+< -- 101
++ -- 130
+- -- 96
+* -- 2623
+:= -- 1594
+add.period$ -- 16
+call.type$ -- 16
+change.case$ -- 64
+chr.to.int$ -- 16
+cite$ -- 18
+duplicate$ -- 1517
+empty$ -- 1215
+format.name$ -- 247
+if$ -- 3172
 int.to.chr$ -- 1
-int.to.str$ -- 22
-missing$ -- 159
-newline$ -- 106
-num.names$ -- 42
-pop$ -- 522
+int.to.str$ -- 24
+missing$ -- 182
+newline$ -- 113
+num.names$ -- 48
+pop$ -- 595
 preamble$ -- 1
-purify$ -- 70
+purify$ -- 80
 quote$ -- 0
-skip$ -- 493
+skip$ -- 566
 stack$ -- 0
-substring$ -- 327
-swap$ -- 1269
-text.length$ -- 40
+substring$ -- 385
+swap$ -- 1441
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 195
+type$ -- 222
 warning$ -- 2
-while$ -- 38
+while$ -- 44
 width$ -- 0
-write$ -- 180
+write$ -- 198
 (There were 4 warnings)
