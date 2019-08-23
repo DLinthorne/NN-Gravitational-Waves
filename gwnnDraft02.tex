@@ -362,7 +362,15 @@ For fully decoupled sectors that never enter (or reenter) thermal equilibrium wi
 \begin{equation}\label{eqn:DeltaNeff1hs}
 \Delta N_{eff} = \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_h \xi_h^4.
 \end{equation} 
-Here, $g_h$ represents the effective number of relativistic degrees of freedom for the hidden sector\footnote{$g_h = N_{\rm boson} + 7 N_{\rm fermion}/8$.} when the hidden sector has a temperature $T_h = \xi_h T_\gamma$. \draftnote{These should be defined at the time of CMB decoupling?} 
+Here, $g_h$ represents the effective number of relativistic degrees of freedom for the hidden sector\footnote{$g_h = N_{\rm boson} + 7 N_{\rm fermion}/8$.}, and we parameterize the hidden sector temperature by~\cite{Breitbach:2018ddu}
+\begin{equation}
+\xi_h \equiv  \frac{T_{h}}{T_{\gamma}},
+\label{eq:xi}
+\end{equation}
+and these should be evaluated at the time of photon decoupling. 
+%
+%
+%when the hidden sector has a temperature $T_h = \xi_h T_\gamma$. \draftnote{These should be defined at the time of CMB decoupling?} 
 %Contours for Eq. (\ref{eqn:DeltaNeff1hs}) at various temperature ratios as well as CMB bounds are plotted in Fig.~\ref{fig:neff}. 
 We take this approach and generalize it to include many additional sectors:
 \begin{equation}\label{eqn:DeltaNeff}
@@ -375,10 +383,6 @@ For a dark sector with one relativistic degree of freedom, its temperature must 
 %As Fig.~\ref{fig:neff} \textcolor{green}{Why is it figure V?} demonstrates, sectors with a temperature ratio above $\xi_h\sim 0.6$ with even a couple of relativistic particles are immediately excluded by CMB constraints. Accordingly, the additional sectors present in this project must be heated to a much smaller fraction of our own sector's temperature. \textcolor{green}{$\xi=0.5$ and $g=2$ is not excluded.}
 
 \subsection{Exotic Sector Contributions}
-
-\draftnote{...} 
-
-This means, that for a single standard sector, the energy density is limited to $\sim 0.25\rho_{SM}$, while for an exotic sector, we can have ??
 
 
 %The original $N$naturalness paper focused on the (stronger) $N_{eff}$ constraints from the additional standard sectors and ignored the exotic sectors altogether \cite{Arkani-Hamed:2016rle}; in contrast, we take the opposite approach. Since we're more interested in a more general scenario with multiple dark phase transitions, we focus in on whether zero vev sectors can dodge these $N_{eff}$ bounds. 
@@ -398,6 +402,8 @@ Coupling the number of effective degrees of freedom per sector with the energy d
 with $T_{RH_{E1}}/T_{RH}$ being the ratio of the reheat temperatures of the 1st exotic sector and our own sector ($0.06$ in standard $N$naturalness with $r = 1$).  This sum is dominated by $i=1$, the sector with the lowest Higgs mass (and thus the most energy density) gives us a contribution of $\mathcal{O} (10^{-4})$. Evolving the sectors thermal histories forward in time to the recombination era gives us a slightly larger value, but still of order $\mathcal{O}(10^{-4})$; well under current CMB bounds. 
 
 It should be noted that modifying the exotic sectors' structure (e.g. adjusting the exotic sectors to have a lower higgs mass squared or clustering multiple hidden sectors close to the first exotic one) leads to a $\Delta N_{eff}$ contribution that is larger than the base $N$naturalness case. This increase is typically not excluded by current bounds, indicating a large degree of liberty in the structure and number of exotic hidden sectors.
+
+\draftnote{What is temperature ratio for random reheating scenario?}
 
 \subsection{Generalized Reheating Scenarios}
 
@@ -436,29 +442,51 @@ Exotic sectors feature no baryons and, as such, produce runaway bubbles similar 
 
 Ultimately, calculating the critical phase transition strength for each sector using Eq.~(\ref{eqn:critPTstrength}) indicates that every sector has a phase transition in the runaway regime. Thus, all exotic sectors have strong first order phase transitions that lead to runaway bubble walls.
 
+\draftnote{---------}
+
 \label{sec:gw}
-Sectors other than the SM can be reheated through multifield inflationary theories, Reheaton models, etc. In these models, the SM will receive the majority of the energy density while the remaining energy density will be distributed, in a model dependent way, to the various hidden sectors. If there does not exist a portal between the sectors, they will remain decoupled and evolve independently. When looking at multiple thermally decoupled hidden sectors it is convienent to define the temperature ratio [cite cold,dark,noisy]
+%Sectors other than the SM can be reheated through multifield inflationary theories, Reheaton models, etc. In these models, the SM will receive the majority of the energy density while the remaining energy density will be distributed, in a model dependent way, to the various hidden sectors. If there does not exist a portal between the sectors, they will remain decoupled and evolve independently. When looking at multiple thermally decoupled hidden sectors it is convenient to define the temperature ratio [cite cold,dark,noisy]
+%\begin{equation}
+%\xi_i \equiv  \frac{T_{i}}{T_{\gamma}}
+%\end{equation}
+%Where $T_{i}$ is the temperature of the $i^{th}$ hidden sector, and $T_{\gamma}$ the temperature of the standard model (assuming radiation domination).
+
+We now turn to the gravitational wave signatures of our setup. At high temperature, each of the hidden sectors has QCD in the quark/gluon phase, but at temperatures around $\Lambda_{\rm QCD,i}$, the sector undergoes a phase transition into the hadron phase, where we compute $\Lambda_{\rm QCD,i}$ for the different sectors in Sec.~\ref{sec:dQCD}. As discussed in that section, this phase transition will be strongly first order (SFOPT) if certain regions of parameter space, which will generate gravitational waves. 
+
+
+%Right after reheating, the temperatures of the respective sectors are high leading to restoration of a given sector's symmetry.  An example being the SM's $SU(3) \times SU(2) \times U(1)$ symmetry being restored as the scalar potential's vev becomes global minimum. As the sectors cool down their scalar potentials may change, producing a new global vev at which the symmetry will break by an induced phase transition. Depending on the characteristics of the symmetry breaking, the phase transition may be strongly first ordered (SFOPT).  
+
+A SFOPT proceeds through bubble nucleation, where bubbles of the hadron form in the vacuum of quark phase. These bubbles will expand, eventually colliding and merging until the entire sector is within the new phase.  These bubbles are described by the following Euclidean action~\cite{}
+%
 \begin{equation}
-\xi_i \equiv  \frac{T_{i}}{T_{\gamma}}
+S_{E}(T) = \frac{1}{T}\int d^3x \bigg[\frac{1}{2}(\nabla\phi)^2 + V(\phi,T)  \bigg],
 \end{equation}
-Where $T_{i}$ is the temperature of the $i^{th}$ hidden sector, and $T_{\gamma}$ the temperature of the standard model (assuming radiation domination).
+\draftnote{What is $\phi$?} where the time component has been integrated out due to finite temperature effects. The system has solutions with a $O(3)$ symmetry. We leave the thermalized potential $V(\phi, T)$ general, since an exact QCD potential at the time of the chiral phase transition is not well understood. Some authors~\cite{} have used the chiral effective Lagrangian to calculate a low energy thermalized potential for confining $SU(N)$ .
 
-\vspace{1em }
-Right after reheating, the temperatures of the respective sectors are high leading to restoration of a given sector's symmetry.  An example being the SM's $SU(3) \times SU(2) \times U(1)$ symmetry being restored as the scalar potential's vev becomes global minimum. As the sectors cool down their scalar potentials may change, producing a new global vev at which the symmetry will break by an induced phase transition. Depending on the characteristics of the symmetry breaking, the phase transition may be strongly first ordered (SFOPT).  
-
-Once the temperature reaches the critical temperature the SFOPT will occur, at which bubbles of the new phase will start to nucleate. These bubbles will expand, eventually colliding and merging until the entire sector is within the new phase.  These bubbles are described by the following Euclidean action
-
-
+The amount of energy density dumped into the individual sectors dictates the energy budget for the PT and hence for the gravitational waves.  A quantity that characterizes the strength of the PT is the ratio of the latent heat of the phase transition $\epsilon$ to the energy density of radiation, at the time of nucleation, 
 \begin{equation}
-S_{E}(T) = \frac{1}{T}\int d^3x \bigg[\frac{1}{2}(\nabla\phi)^2 + V(\phi,T)  \bigg]
+\alpha = \frac{\epsilon}{g_{*} \pi^2 (T^{nuc}_{\gamma})^4/30},
+\label{eq:alpha}
 \end{equation}
-
-Where the time component has been integrated out due to finite temperature effects. The system has solutions with a $O(3)$ symmetry. We leave the thermalized potential $V(\phi, T)$ general, since an exact QCD potential at the time of the chiral phase transition is not well understood. Some authors have used the chiral effective lagrangian to calculate a low energy thermalized potential for confining $SU(N)$ .
-
-The amount of energy density dumped into the individual sectors dictates the energy budget for the PT and hence for the gravitational waves.  A quantity that characterizes the strength of the PT is the ratio of the latent heat and energy density of radiation, at the time of nucleation, 
+with $\epsilon$ being calculable from the scalar potential. Assuming that there is a negligible amount of energy being dumped back into the SM, which would cause significant reheating of $\rho_{\gamma}$,  $\epsilon$ should approximately be equal to the energy density of the hidden sector going through the PT. \draftnote{What about the energy in photons, neutrinos, etc?}
+The parameter $g_{*}$ in the denominator of Eq.~(\ref{eq:alpha}) \draftnote{define $g_*$}. It has weak temperature dependence in a single sector, but when dealing with multiple hidden sectors, $g_{*}$ gains contributions from all $N$ sector's relativistic degrees of freedom, weighted by their respective temperature ratios (energy densities).
 \begin{equation}
-\alpha = \frac{\epsilon}{g_{*} \pi^2 (T^{nuc}_{\gamma})^4/30}
+g_{*} = g_{*,\gamma} + \sum_{i} g_{*,i} (\xi_{i})^4
 \end{equation}
+with $\xi$ being the temperature ratio defined in Eq.~(\ref{eq:xi}). The bounds from effective number of neutrinos mean that $\xi_i \lesssim 1$ for all $i$, so $g_{*} \approx g_{*,\gamma}$. In the case of dark QCD-like chiral  phase transitions, the temperature of the phase transition is on the the order of the symmetry breaking scale of the respective sector, $T_{h}^{i} \sim \mathcal{O}(\Lambda_{QCD,i})$. Some authors \cite{bai, etc} have looked at calculating $\alpha$ through the low energy effective chiral Lagrangian for $SU(6)_{L} \times SU(6)_{R}$ breaking. We take the optimistic scenario, 
+%
+\begin{equation}
+\alpha \approx \xi^{4} \approx \bigg( \frac{\Lambda_{d}}{T_{\gamma}^{nuc}}\bigg)^4
+\end{equation}
+%
+where $T_{\gamma}^{nuc}$ is the temperature of the SM photon bath at the time of the phase transition. Another important parameter to characterize the phase transition is its inverse timescale \draftnote{define $\beta$}
+\begin{equation}
+\frac{\beta}{H} = T^{nuc}_h \frac{dS_{E}(T)}{dt}\bigg|_{t = t_{nuc}}
+\end{equation}
+
+
+\subsection{Production of Gravitational Waves}
+\label{sec:signals}
 
 \begin{figure}[tb]
 \centering
@@ -466,25 +494,6 @@ The amount of energy density dumped into the individual sectors dictates the ene
 \caption{ All contributions are assumed to be purely from bubble collisions $\Omega_{\phi}$, with $\beta/H  = 10$.  The shaded curves are the power law noise curves calculated from expected sensitivity curves for space-based interferometers and pulsar timing arrays; Lisa ( blue), DECIGO (light blue), BBO (red), SKA 5-year (purple), SKA 10-year (orange), SKA 20-year (green)   }
 \end{figure}
 
-\draftnote{\st{What is $\epsilon$?}} $\epsilon$ is the latent heat released during the phase transition, and is function of the scalar potential. Assuming that there is a negligible amount of energy being dumped back into the SM, which would cause significant reheating of $\rho_{\gamma}$,  $\epsilon$ should approximately be equal to the energy density of the hidden sector going through the PT. $g_{*}$ has weak temperature dependence in a single sector, but when dealing with multiple hidden sectors, $g_{*}$ gains contributions from all $N$ sector's relativistic degrees of freedom, weighted by their respective temperature ratios (energy densities).
-\begin{equation}
-g_{*} = g_{*,\gamma} + \sum_{i = 1}^{N} g_{*,i} (\xi_{i})^4
-\end{equation}
-It will be seen that for models with a significant number of hidden sectors, that the lack of substantial reheating in adjacent sectors will cause their respective $g_{*}$ corrections to become negligible, $g_{*} \approx g_{*,\gamma}$. In the case of dark QCD-like $SU(6)$ chiral  phase transitions, such as in the generic Nnatrualness models, The temperature of the phase transition is on the the order of the symmetry breaking scale of the respective sector, $T_{h}^{i} \sim \mathcal{O}(\Lambda_{d})$. Some authors [bai, etc] have looked at calculating $\alpha$ through the low energy effective chiral lagrangian for $SU(6)_{L} \times SU(6)_{R}$ breaking. We take the optimistic scenario, 
-
-\begin{equation}
-\alpha \approx \xi^{4} \approx \bigg( \frac{\Lambda_{d}}{T_{\gamma}^{nuc}}\bigg)^4
-\end{equation}
-
-
-The inverse timescale of the phase transition can be calculated
-\begin{equation}
-\frac{\beta}{H} = T^{nuc}_h \frac{dS_{E}(T)}{dt}\bigg|_{t = t_{nuc}}
-\end{equation}
-
-
-%\section{Signals}
-%\label{sec:signals}
 \begin{figure*}[tb]
 \centering
 \begin{minipage}[c]{\textwidth}
