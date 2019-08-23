@@ -175,7 +175,7 @@ with $y_f$ representing the Yukawa coupling to fermion $f$. As we will see, the 
 %\label{fig:columbia}
 %\end{figure*}
 
-We now study the nature of the QCD phase transition across the different sectors. Due to the confining nature of QCD, the exact nature of the phase transition is often difficult to ascertain analytically and requires the study of lattice simulations. In the SM, it is known that the phase transition is a crossover and does lead to gravitational wave signals~\cite{}. In the general case \draftnote{Is this specific to three colours?}, the phase transition can be strongly first order in two regimes~\cite{lattice,SVETITSKY1982423,Pisarski:1983ms}:
+We now study the nature of the QCD phase transition across the different sectors. Due to the confining nature of QCD, the exact nature of the phase transition is often difficult to ascertain analytically and requires the study of lattice simulations. In the SM, it is known that the phase transition is a crossover and does lead to gravitational wave signals~\cite{Aoki:2006we,Bhattacharya:2014ara}. In the general case with 3 or more colours, the phase transition can be strongly first order in two regimes~\cite{Panero:2009tv,SVETITSKY1982423,Pisarski:1983ms}:
 \begin{itemize}
 \item Three or more light flavours.
 \item No light flavours. 
@@ -242,12 +242,7 @@ m^i_u \sim m_u \sqrt{i} \sim (m_s m_c m_b m_t i^2)^{2/29}(\Lambda_{(6)})^{21/29}
 \end{equation}
 This can be solved for $i$:
 \begin{equation}\label{eqn:critIndex}
-i^c \sim \frac{(m_s m_c m_b m_t)^{4/25}(\Lambda_{(6)})^{42/25}}{( m_u)^{58/25}} \sim 10^5
-\end{equation}
-%
-\draftnote{please check, I get this:}
-\begin{equation}\label{eqn:critIndex}
-i^c \sim \frac{(m_s m_c m_b m_t)^{4/21}(\Lambda_{(6)})^{2}}{( m_u)^{58/21}} \sim 10^6
+i^c \sim \frac{(m_s m_c m_b m_t)^{4/21}(\Lambda_{(6)})^{2}}{( m_u)^{58/21}} \sim 10^6.
 \end{equation}
 As we will see in Sec.~\ref{sec:reheat}, in the original Nnaturalness setup~\cite{Arkani-Hamed:2016rle}, the energy dumped into the $i$th sector scales as $i^{-1}$, so there will will not be enough energy in the sectors with $i>i^c$ to see a signature of these phase transitions. 
 
@@ -271,10 +266,10 @@ m^2_{\pi} = \frac{V^3}{F^2_{\pi}}(m_u + m_d),
 \end{equation}
 where $V \sim \Lambda_{QCD}$, $F_\pi$ is the pion decay constant. One expects that within a given sector $F_\pi \sim V \sim \Lambda_{QCD}$ \cite{Schwartz:2013pla} and as exotic sectors have $\Lambda_{ex} \sim 90 \,\mev$ while the SM features $\Lambda_{QCD} = (332\pm17)\,\mev$ \cite{PhysRevD.98.030001} we expect at most $\mathcal{O}(1)$ difference in the $\sqrt{\frac{V^3}{F_\pi^2}}$ coefficient relative to the SM value. So, for pions in exotic sector $i$:
 \begin{equation}
-m_{\pi}^i \sim \sqrt{\frac{m_a^i+m_b^i}{m_a + m_b}} m_{\pi}.
+m_{\pi}^i \sim \sqrt{\frac{m_a^i+m_b^i}{m_u + m_d}} m_{\pi}.
 \label{eq:ith_pion_mass}
 \end{equation}
-Here, $a$ and $b$ denote the component quark flavours. \draftnote{Shouldn't the denominator be up and down quarks in the SM?}
+Here, $a$ and $b$ denote the component quark flavours. 
 
 
 
@@ -302,7 +297,7 @@ The appropriate Lagrangian for a scalar reheaton $\phi$ is:
 \begin{equation}\label{eqn:nnLagrangian}
 \cL_\phi \supset -a\phi\sum_i\vert H_i\vert^2 - \frac{1}{2}m^2_\phi \phi^2.
 \end{equation}
-\draftnote{what does this sentence mean?} Note that the cross-quartic couplings are absent, suppressed by a very small coupling. Effective Lagrangians for the two different types of sectors present in this theory can be obtained by integrating out of the Higgs bosons in every sector:
+Note that cross-quartic couplings of the form $\kappa\vert H_i\vert^2\vert H_j\vert^2$ that could potentially ruin the spectrum of $N$naturalness are absent, taken to be suppressed by a very small coupling. Effective Lagrangians for the two different types of sectors present in this theory can be obtained by integrating out of the Higgs bosons in every sector:
 \begin{equation}\label{eqn:nnEffLag}
 \begin{split}
 \cL_\phi^{v \neq 0} &\supset C_1 a y_q\frac{v}{m_h^2}\phi q q^c,
@@ -362,13 +357,13 @@ For fully decoupled sectors that never enter (or reenter) thermal equilibrium wi
 \begin{equation}\label{eqn:DeltaNeff1hs}
 \Delta N_{eff} = \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_h \xi_h^4.
 \end{equation} 
-Here, $g_h$ represents the effective number of relativistic degrees of freedom for the hidden sector\footnote{$g_h = N_{\rm boson} + 7 N_{\rm fermion}/8$.} when the hidden sector has a temperature $T_h = \xi_h T_\gamma$. \draftnote{These should be defined at the time of CMB decoupling?} 
+Here, $g_h$ represents the effective number of relativistic degrees of freedom for the hidden sector\footnote{$g_h = N_{\rm boson} + 7 N_{\rm fermion}/8$.} when the hidden sector has a temperature $T_h = \xi_h T_\gamma$. In this analysis, these temperatures are taken at CMB decoupling. 
 %Contours for Eq. (\ref{eqn:DeltaNeff1hs}) at various temperature ratios as well as CMB bounds are plotted in Fig.~\ref{fig:neff}. 
 We take this approach and generalize it to include many additional sectors:
 \begin{equation}\label{eqn:DeltaNeff}
 \Delta N_{eff} = \sum_i \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_{i} \xi^4_{i}.
 \end{equation} 
-For a dark sector with one relativistic degree of freedom, its temperature must be $\sim T_{\rm SM}/2$ to not be excluded. This sector would have an energy density $\rho \sim 0.1 \rho_{\rm SM}$. \draftnote{check!}
+For a dark sector with one relativistic degree of freedom, its temperature must be $\sim 0.6\, T_{\rm SM}$ to not be excluded. This sector would have an energy density $\rho \sim 0.36\, \rho_{\rm SM}$. 
 
 
 %\draftnote{Maybe give what the temperature ratio should be for one standard (or exotic) sector to not be excluded.} 
@@ -392,9 +387,8 @@ At the time of photon decoupling ($T_\gamma \sim 0.39 \,\ev$) while the temperat
 
 Coupling the number of effective degrees of freedom per sector with the energy density scaling of $\sim 1/m_H^4$ as in Eq.~(\ref{eq:reheat_exotic}) means that the zero vev sectors have small temperature ratios. Assuming a reheating temperature of $100$ GeV and a completely uniform distribution of sectors, the temperature of the first exotic sector is slightly more than $6\%$ of our sector at reheating. Applying Eq.~(\ref{eqn:DeltaNeff}) to this particular situation gives us:
 \begin{equation}
-\Delta N_{eff} = \sum_i \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_{i} \left(\frac{(T_{RH_{E1}}/T_{RH})}{i^2}\right)^4 \sim 10^{-4},
+\Delta N_{eff} = \sum_i \frac{4}{7}\left(\frac{11}{4}\right)^{4/3}g_{i} \left(\frac{(T_{RH_{E1}}/T_{RH})}{i^{1/2}}\right)^4 \sim 10^{-4},
 \end{equation}     
-\draftnote{doesn't $\rho$ go like $i^{-2}$ rather than $\xi$ going like $i^{-2}$??}
 with $T_{RH_{E1}}/T_{RH}$ being the ratio of the reheat temperatures of the 1st exotic sector and our own sector ($0.06$ in standard $N$naturalness with $r = 1$).  This sum is dominated by $i=1$, the sector with the lowest Higgs mass (and thus the most energy density) gives us a contribution of $\mathcal{O} (10^{-4})$. Evolving the sectors thermal histories forward in time to the recombination era gives us a slightly larger value, but still of order $\mathcal{O}(10^{-4})$; well under current CMB bounds. 
 
 It should be noted that modifying the exotic sectors' structure (e.g. adjusting the exotic sectors to have a lower higgs mass squared or clustering multiple hidden sectors close to the first exotic one) leads to a $\Delta N_{eff}$ contribution that is larger than the base $N$naturalness case. This increase is typically not excluded by current bounds, indicating a large degree of liberty in the structure and number of exotic hidden sectors.
@@ -403,19 +397,19 @@ It should be noted that modifying the exotic sectors' structure (e.g. adjusting 
 
 The generalization of possible reheating mechanisms mentioned in section~\ref{sec:reheat} --- where the reheating mechanism no longer depends on the higgs' mass parameter of a given sector --- opens up a wide range of hidden sectors for study. Specifically, this allows mirror sectors with large Higgs vevs to be reheated to significant energy densities and thus produce gravitational waves with enough power to be detected. Crucially, despite this analysis being limited to mirror sectors with large Higgs masses, this analysis pertains to any strong, confining phase transition at high scales.
 
-Since $N_{eff}$ constraints remain our strongest cosmological bounds for massive standard sectors, our starting point for exploring the limits of high transition temperatures is Eq.~(\ref{eqn:DeltaNeff}). Assuming heavy, standard sectors (with the only relativistic particles being photons and neutrinos) we can saturate the bounds of Eq.~(\ref{eqn:NeffBounds}) and solve for the maximum energy density allowed for any number of sectors:
+Since $N_{eff}$ constraints remain our strongest cosmological bounds for massive standard sectors, our starting point for exploring the limits of high transition temperatures is Eq.~(\ref{eqn:DeltaNeff}). Assuming heavy, standard sectors (with the only relativistic particles being photons and neutrinos) we can saturate the bounds of Eq.~(\ref{eqn:NeffBounds}) and solve for the maximum temperature allowed for any number of sectors:
 \begin{equation}\label{eqn:energyDensityAllowed}
 \begin{split}
-\rho_i &\sim 0.25 \rho_{SM} \,\,\,\,\, \mathrm{1}\,\, \mathrm{hidden}\,\, \mathrm{sector},
+T_i &\sim 0.25 \,T_{SM} \,\,\,\,\, \mathrm{1}\,\, \mathrm{hidden}\,\, \mathrm{sector},
 \\
-\rho_i &\sim 0.17 \rho_{SM} \,\,\,\,\, \mathrm{5} \,\,\mathrm{hidden}\,\, \mathrm{sectors},
+T_i &\sim 0.17 \,T_{SM} \,\,\,\,\, \mathrm{5} \,\,\mathrm{hidden}\,\, \mathrm{sectors},
 \\
-\rho_i &\sim 0.14 \rho_{SM} \,\,\,\,\, \mathrm{10} \,\,\mathrm{hidden}\,\, \mathrm{sectors},
+T_i &\sim 0.14 \,T_{SM} \,\,\,\,\, \mathrm{10} \,\,\mathrm{hidden}\,\, \mathrm{sectors},
 \\
-\rho_i &\sim 0.08 \rho_{SM} \,\,\,\,\, \mathrm{100} \,\,\mathrm{hidden}\,\, \mathrm{sectors},
+T_i &\sim 0.08 \,T_{SM} \,\,\,\,\, \mathrm{100} \,\,\mathrm{hidden}\,\, \mathrm{sectors},
 \end{split}
 \end{equation}
-where all the hidden sectors have the same temperature as one another. \draftnote{right?}
+where all the hidden sectors have the same temperature as one another.
 
 Using these restrictions, we can examine the behaviour of standard sectors with a much larger vev than our own. In terms of the $N$naturalness framework, this means we can get an SFOPT for QCD if we look at sectors with $i$ greater than the cirtical index of Eq.~(\ref{eqn:critIndex}) where all the quark masses are above the QCD confinement scale. 
  %of looking at various different sectors above the critical index, as mentioned in Sec.~\ref{sec:dQCD}. The signals for both the maximal case ($10^{16}$ limit) and several other high transition temperatures (involving sectors $i > 10^{10}$) scenarios are shown in Sec.~\ref{sec:gw}. \textcolor{yellow}{This assumes that only photons and neutrinos are relativistic? Yes.}
@@ -497,7 +491,7 @@ The inverse timescale of the phase transition can be calculated
 \includegraphics[width=.45\textwidth]{energydensity.png} 
 \end{minipage}
 \hfill
-\caption{ Gravitational wave power spectrum for various models. The top row consists of two models with only two hidden sectors undergoing SFOPT at differing temperatures. The bottom right (left) are examples of exotic sectors, discussed in section V, with sectors reheated at $\rho \sim 0.25\rho_{SM}$ ($\rho \sim 0.17\rho_{SM}$ ). All contributions are assumed to be purely from bubble collisions $\Omega_{\phi}$, with $\beta/H  = 10$.  The shaded curves are the power law noise curves calculated from expected sensitivity curves for space-based interferometers and pulsar timing arrays; Lisa ( blue), DECIGO (light blue), BBO (red), SKA 5-year (purple), SKA 10-year (orange), SKA 20-year (green)   }
+\caption{ Gravitational wave power spectrum for various models. The top row consists of two models with only two hidden sectors undergoing SFOPT at differing temperatures. The bottom right (left) are examples of exotic sectors, discussed in section V, with sectors reheated at $T \sim 0.25\,T_{SM}$ ($T \sim 0.17\,T_{SM}$ ). All contributions are assumed to be purely from bubble collisions $\Omega_{\phi}$, with $\beta/H  = 10$.  The shaded curves are the power law noise curves calculated from expected sensitivity curves for space-based interferometers and pulsar timing arrays; Lisa ( blue), DECIGO (light blue), BBO (red), SKA 5-year (purple), SKA 10-year (orange), SKA 20-year (green)   }
 \label{fig:Haa}
 \end{figure*}
 Gravitational waves are produced with contributions from different components of the SFOPT's evolution.  The three leading order contributions to the GW power spectrum are as follows:
