@@ -379,17 +379,16 @@ where $T_{\gamma}^{nuc}$ is the temperature of the SM photon bath at the time of
 The ratio of $\beta$ and the Hubble constant, at the time of nucleation, $H$ controls the strength of the GW signal,
 
 \begin{equation}
-\frac{\beta}{H} = T^{nuc}_h \frac{dS_{E}(T)}{dT}\bigg|_{T = T^{nuc}}
+\frac{\beta}{H} = T^{nuc}_h \frac{dS_{E}(T)}{dT}\bigg|_{T = T^{nuc}}.
 \end{equation}
 
-
-
+Due to the lack of a analytic potential, we take $\beta/H$ to a standard value currently seen in the field. Again, there has been a lot of work in recent years looking to estimate $\beta/H$ using models such as chiral effective theories and PNJ~\citep{}. Although, these studies claim a large range of values and thus a consenes has yet been reached.
 \subsection{Production of Gravitational Waves}
 \label{sec:signals}
 
 Gravitational waves are produced with contributions from different components of the SFOPT's evolution.  It is commonplace to parameterize the spectral energy density in gravitational waves   by $\Omega_{\textrm{GW}} (f) \equiv \frac{1}{ \rho_{c}} \frac{\textrm{d} \rho_{\textrm{GW}}(f) }{\textrm{dlog}(f)}$ \citep{PhysRevD.75.043507}, where $\rho_{c} = 3H^2/(8 \pi G)$ is the critical energy density to not over close the universe. The three leading order contributions to the GW power spectrum are as follows:
 \begin{itemize}
-\item \textbf{Scalar field contributions $\Omega_{\phi}$}: Caused by collisions of the bubble walls, the solutions being completely dependent on the scalar field configuration. With efficiency factor $\kappa_{\phi} = 1 - \alpha_{\infty}/\alpha$~\citep{PhysRevD.45.4514}. 
+\item \textbf{Scalar field contributions $\Omega_{\phi}$}: Caused by collisions of the bubble walls, the solutions being completely dependent on the scalar field configuration. With efficiency factor $\kappa_{\phi} = 1 - \alpha_{\infty}/\alpha$~\citep{PhysRevD.45.4514, Huber_2008}. 
 \item \textbf{Sound wave contributions $\Omega_{v}$}: Sound waves within the plasma after bubble collision will produce $\beta/H$ enhanced gravitational waves. With efficiency factor $\kappa_{v} \propto \alpha_{\infty}/\alpha$~\citep{PhysRevLett.112.041301}.
 \item \textbf{Magnetohydrodynamical contributions $\Omega_{B}$}: MTG shocks within the plasma, left over from the sound wave propagation, will produce gravitational waves. With efficiency factor $\kappa_{
 turb} \approx 0.1 \kappa_{v} $~\citep{PhysRevD.74.063521}.
@@ -415,11 +414,11 @@ Ultimately, calculating the critical phase transition strength for each sector u
 \begin{equation}
 h^2\Omega_{\textrm{GW}}^* = 7.7\times 10^{-2} \bigg( \frac{\kappa_{\phi} \alpha}{1 + \alpha} \bigg)^2 \bigg( \frac{H}{\beta} \bigg)^2  S(f)
 \end{equation}
-Where we have assumed an optimistic bubble wall velocity of $v \sim c$ for runaway bubbles. $S(f)$ is the spectral shape function for the signal and a parametric from has been found through numerical simulations~\cite{} of bubble wall collisions.
+Where we have assumed an optimistic bubble wall velocity of $v \sim c$ for runaway bubbles. $S(f)$ is the spectral shape function for the signal and a parametric from has been found through numerical simulations~\cite{Huber_2008} of bubble wall collisions.
 \begin{equation}\label{eqn::spectralshape}
 S(f) = \frac{3.8 \,(f/f_p)^{2.8}}{1 + 2.8\,(f/f_p)^{3.8}}
 \end{equation}
-The peak frequency, $f_{p}$ is a function of the temperature of the SM at the time of nucleation.  The various hidden sectors can phase transition at different scales and therefore temperatures, causing a shift in the GW spectrum's peak frequency given by~\cite{},
+The peak frequency, $f_{p}$ is a function of the temperature of the SM at the time of nucleation.  The various hidden sectors can phase transition at different scales and therefore temperatures, causing a shift in the GW spectrum's peak frequency given by~\cite{Huber_2008},
 
 \begin{equation}
 f_{p} = 3.8 \times 10^{-8} \, \textrm{Hz}\, \bigg( \frac{\beta}{H}\bigg)\bigg(\frac{T_{\gamma}}{100 \, \textrm{GeV}}\bigg)\bigg(\frac{g_{*}}{100}\bigg)^{\frac{1}{6}}
@@ -439,7 +438,7 @@ It is safe to assume that a subset of parameters of the SFOPT do not differ betw
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=.3]{Nnatral.png} 
-\caption{ All contributions are assumed to be purely from bubble collisions $\Omega_{\phi}$, with $\beta/H  = 10$.  The shaded curves are the power law noise curves~\cite{PhysRevD.88.124032} calculated from expected sensitivity curves for space-based interferometers and pulsar timing arrays; Lisa ( blue), DECIGO (light blue), BBO (red), SKA 5-year (purple), SKA 10-year (orange), SKA 20-year (green)   }
+\caption{ Gravitational wave power spectrum for standard $N$naturalness using the scalar reheaton model of section~\ref{sec:reheat}. All contributions are assumed to be purely from bubble collisions $\Omega_{\phi}$, with $\beta/H  = 10$.  The shaded curves are the power law noise curves~\cite{PhysRevD.88.124032} calculated from expected sensitivity curves for space-based interferometers and pulsar timing arrays; Lisa ( blue), DECIGO (light blue), BBO (red), SKA 5-year (purple), SKA 10-year (orange), SKA 20-year (green)   }
 \label{fig::Nnatural}
 \end{figure}
 Applying this to the standard reheating scenario of $N$natrualness, introduced in~\ref{sec:reheat}, we get GW signals as seen in figure~(\ref{fig::Nnatural}). Plotted are the individual contributions to the signal from each phase transitioned sector, as well as the coherent sum of all sectors. Future GW interferometers and pulsar timing array sensitivity curves are shown in comparison to the signal. The sensitivity curves are interpreted as the region of possible detection if intersected with the GW signal, more detail in the construction of these curves is given in the following section. Notice that the total signal is dominated by the first sectors contribution. This is caused by the quartic temperature ratio suppression in Eq. (\ref{eq:alpha}) and the large temperature gaps between adjacent sectors. Such a suppression leads to standard $N$natrualness evading future detector thresholds by a few orders of magnitude in units of energy density. This is not the case if we neglect the standard reheaton scenario and consider the more generalized reheating scenarios of section~\ref{sec:constraints}. 
@@ -465,9 +464,13 @@ Assuming all else equal, we use the temperature schemes from Eq. (\ref{eqn:energ
 
 \subsection{Detection of Stochastic Graviational Waves}
 
-A unpolarized stocastic gravitational wave background could be detectable if the the signal-to-noise ratio (SNR) is above some threshold value, $\rho > \rho_{th}$, dictated by the capabilities of future interferometers and pulsar timing arrarys (PTA). These interferometers/PTAs quote their experimental sensistivies in terms of spectral noise curves, $S_{\textrm{eff}}(f)$, which can be translated into units of energy density through $h^2 \Omega_{\textrm{eff}}(f) = \frac{2\pi^2}{3H^2}f^3 S_{\textrm{eff}}(f)$. The cross correlated SNR for a specefied experimental setup is~\cite{PhysRevD.59.102001}
+A unpolarized stocastic gravitational wave background could be detectable if the the signal-to-noise ratio (SNR) is above some threshold value, $\rho > \rho_{th}$, dictated by the capabilities of future interferometers and pulsar timing arrarys (PTA). These interferometers/PTAs quote their experimental sensistivies in terms of spectral noise curves, $S_{\textrm{eff}}(f)$, which can be translated into units of energy density through $h^2 \Omega_{\textrm{eff}}(f) = \frac{2\pi^2}{3H^2}f^3 S_{\textrm{eff}}(f)$. If the experiment uses a single (multiple) detector, the auto-correlated (cross-correlated) SNR is used in comparing to the threshold value $\rho_{th}$. LISA~\citep{Audley:2017drz} and B-DEICIGO~\citep{10.1093/ptep/pty078} are proposed to be single detector interferometers, where as BBO~\citep{PhysRevD.72.083005} and DEICIGO~\citep{Sato_2017} would be built from an array of multiple interferometers. The auto-correlated and cross-correlated SNR are explictely given as~\cite{PhysRevD.59.102001},
 \begin{equation}\label{eqn::SNR}
-\rho^2 = 2 T \int_{f_{\textrm{min}}}^{f_{\textrm{max}}}\textrm{d}f \bigg( \frac{h^2 \Omega_{\textrm{GW}}(f)}{h^2 \Omega_{\textrm{eff}}(f)} \bigg)^2,
+\begin{split}
+\rho^2 =  T \int_{f_{\textrm{min}}}^{f_{\textrm{max}}}\textrm{d}f \bigg( \frac{h^2 \Omega_{\textrm{GW}}(f)}{h^2 \Omega_{\textrm{eff}}(f)} \bigg)^2 \;\;\;\;\;\; \textrm{(auto-correlated)}
+\\
+\rho^2 = 2 T \int_{f_{\textrm{min}}}^{f_{\textrm{max}}}\textrm{d}f \bigg( \frac{h^2 \Omega_{\textrm{GW}}(f)}{h^2 \Omega_{\textrm{eff}}(f)} \bigg)^2 \;\;\;\: \textrm{(cross-correlated)}
+\end{split}
 \end{equation}
 Where $T$ is the exposure time of the experiment. The integration covers the entire broadband range of frequencies $(f_{\textrm{min}}, f_{\textrm{max}})$. 
 
@@ -483,6 +486,7 @@ The method of calculating the PLI curves involves plotting $h^2 \Omega_{\textrm{
 h^2 \Omega_{\textrm{PLI}} = \max\limits_{\beta}\bigg[ h^2 \Omega_{\beta}\bigg(\frac{f}{f_{\textrm{ref}}}\bigg)^{\beta}  \bigg].
 \end{equation}
 
+The spectral noise curves used to create the PSI curves shown in figures~(\ref{fig::Nnatural}) and ~(\ref{fig:Haa}) where taken from~\citep{Robson_2019,PhysRevD.83.084036,doi:10.1142/S0218271813410137,10.1093/ptep/pty078, Breitbach:2018ddu} for the interferometers, and ~\citep{Breitbach:2018ddu, Janssen:2014dka} for the SKA pulsar timing array. We have assumed a observation time of $T = 4 $ years for the interferometers and $T= 5, 10, 20 $  years for the various stages of SKA.
 
 \section{Conclusion}
 \label{sec:conclusion}
