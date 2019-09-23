@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 SEP 2019 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  20 SEP 2019 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -370,49 +370,49 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
  [1
 Non-PDF special ignored!{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/upd
 map/pdftex.map}] [2] [3] [4] [5] [6]
-Underfull \hbox (badness 1629) in paragraph at lines 435--437
+<Nnatral.png, id=43, 803.0pt x 522.95375pt>
+File: Nnatral.png Graphic file (type png)
+ <use Nnatral.png>
+Package pdftex.def Info: Nnatral.png used on input line 424.
+(pdftex.def)             Requested size: 240.90186pt x 156.88733pt.
+
+<TwoFar.png, id=44, 803.0pt x 522.95375pt>
+File: TwoFar.png Graphic file (type png)
+ <use TwoFar.png>
+Package pdftex.def Info: TwoFar.png used on input line 433.
+(pdftex.def)             Requested size: 229.49844pt x 149.4583pt.
+
+<TwoMed.png, id=45, 803.0pt x 524.96124pt>
+File: TwoMed.png Graphic file (type png)
+ <use TwoMed.png>
+Package pdftex.def Info: TwoMed.png used on input line 435.
+(pdftex.def)             Requested size: 229.49844pt x 150.03204pt.
+
+<highest.png, id=46, 803.0pt x 526.96875pt>
+File: highest.png Graphic file (type png)
+ <use highest.png>
+Package pdftex.def Info: highest.png used on input line 437.
+(pdftex.def)             Requested size: 229.49844pt x 150.60577pt.
+
+<energydensity.png, id=47, 803.0pt x 524.96124pt>
+File: energydensity.png Graphic file (type png)
+ <use energydensity.png>
+Package pdftex.def Info: energydensity.png used on input line 439.
+(pdftex.def)             Requested size: 229.49844pt x 150.03204pt.
+
+Underfull \hbox (badness 1629) in paragraph at lines 420--445
 \OT1/cmr/m/n/10 It is safe to as-sume that a sub-set of pa-ram-e-ters
  []
 
-[7] <Nnatral.png, id=47, 803.0pt x 522.95375pt>
-File: Nnatral.png Graphic file (type png)
- <use Nnatral.png>
-Package pdftex.def Info: Nnatral.png used on input line 440.
-(pdftex.def)             Requested size: 240.90186pt x 156.88733pt.
-
-<TwoFar.png, id=48, 803.0pt x 522.95375pt>
-File: TwoFar.png Graphic file (type png)
- <use TwoFar.png>
-Package pdftex.def Info: TwoFar.png used on input line 452.
-(pdftex.def)             Requested size: 229.49844pt x 149.4583pt.
-
-<TwoMed.png, id=49, 803.0pt x 524.96124pt>
-File: TwoMed.png Graphic file (type png)
- <use TwoMed.png>
-Package pdftex.def Info: TwoMed.png used on input line 454.
-(pdftex.def)             Requested size: 229.49844pt x 150.03204pt.
-
-<highest.png, id=50, 803.0pt x 526.96875pt>
-File: highest.png Graphic file (type png)
- <use highest.png>
-Package pdftex.def Info: highest.png used on input line 456.
-(pdftex.def)             Requested size: 229.49844pt x 150.60577pt.
-
-<energydensity.png, id=51, 803.0pt x 524.96124pt>
-File: energydensity.png Graphic file (type png)
- <use energydensity.png>
-Package pdftex.def Info: energydensity.png used on input line 458.
-(pdftex.def)             Requested size: 229.49844pt x 150.03204pt.
-
-[8 <./Nnatral.png (PNG copy)>] (./gwnnDraft02.bbl
-Underfull \hbox (badness 1189) in paragraph at lines 93--105
+[7] [8 <./Nnatral.png (PNG copy)>] (./gwnnDraft02.bbl
+Underfull \hbox (badness 1189) in paragraph at lines 105--117
  \OT1/cmr/m/n/9 Grav. \OT1/cmr/bx/n/9 29\OT1/cmr/m/n/9 , 124013 (2012), [Er-ra-
 tum: Class. Quant.
  []
 
 [9 <./TwoFar.png (PNG copy)> <./TwoMed.png (PNG copy)> <./highest.png (PNG copy
 )> <./energydensity.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 151--157
+Underfull \hbox (badness 10000) in paragraph at lines 182--189
  []\OT1/cmr/m/n/9 C. Caprini \OT1/cmr/m/it/9 et al.\OT1/cmr/m/n/9 , JCAP \OT1/c
 mr/bx/n/9 1604\OT1/cmr/m/n/9 , 001 (2016),
  []
@@ -420,37 +420,37 @@ mr/bx/n/9 1604\OT1/cmr/m/n/9 , 001 (2016),
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¦ in font cmr9!
 
-Underfull \hbox (badness 2012) in paragraph at lines 486--493
+Underfull \hbox (badness 2012) in paragraph at lines 533--540
  []\OT1/cmr/m/n/9 M. Panero, Phys. Rev. Lett. \OT1/cmr/bx/n/9 103\OT1/cmr/m/n/9
  , 232001 (2009),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 561--566
+Underfull \hbox (badness 10000) in paragraph at lines 608--613
  []\OT1/cmr/m/n/9 K. N. Abaza-jian \OT1/cmr/m/it/9 et al. \OT1/cmr/m/n/9 (CMB-S
 4),  (2016),
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 570--576
+Underfull \hbox (badness 1484) in paragraph at lines 617--623
  []\OT1/cmr/m/n/9 Z. Fodor and S. D. Katz, JHEP \OT1/cmr/bx/n/9 03\OT1/cmr/m/n/
 9 , 014 (2002),
  []
 
-)
+[10])
 
 Class revtex4-1 Warning: Command \draft is obsolete;
 Invoke option draft instead..
 
-[10] (./gwnnDraft02.aux) ) 
+[11] (./gwnnDraft02.aux) ) 
 Here is how much of TeX's memory you used:
- 5216 strings out of 492995
- 71336 string characters out of 6132704
- 190344 words of memory out of 5000000
- 8674 multiletter control sequences out of 15000+600000
+ 5233 strings out of 492995
+ 71682 string characters out of 6132704
+ 165857 words of memory out of 5000000
+ 8691 multiletter control sequences out of 15000+600000
  12815 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,19n,29p,1291b,379s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,19n,29p,1291b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/
@@ -474,10 +474,10 @@ texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on gwnnDraft02.pdf (10 pages, 693630 bytes).
+Output written on gwnnDraft02.pdf (11 pages, 692912 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 93 compressed objects within 1 object stream
+ 137 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
