@@ -28,45 +28,45 @@ Warning--missing journal in Bertone:2019irm
 Warning--missing journal in Aghanim:2018eyx
 Warning--missing journal in Abazajian:2016yjj
 Warning--missing journal in Audley:2017drz
-You've used 69 entries,
+You've used 71 entries,
             5847 wiz_defined-function locations,
-            2223 strings with 30092 characters,
-and the built_in function-call counts, 66758 in all, are:
-= -- 4530
-> -- 1530
-< -- 404
-+ -- 497
-- -- 350
-* -- 10476
-:= -- 6667
-add.period$ -- 69
-call.type$ -- 69
-change.case$ -- 279
-chr.to.int$ -- 66
-cite$ -- 76
-duplicate$ -- 6233
-empty$ -- 5028
-format.name$ -- 931
-if$ -- 13197
-int.to.chr$ -- 4
-int.to.str$ -- 77
-missing$ -- 780
-newline$ -- 309
-num.names$ -- 207
-pop$ -- 2493
+            2237 strings with 30482 characters,
+and the built_in function-call counts, 68649 in all, are:
+= -- 4662
+> -- 1573
+< -- 416
++ -- 512
+- -- 360
+* -- 10764
+:= -- 6858
+add.period$ -- 71
+call.type$ -- 71
+change.case$ -- 288
+chr.to.int$ -- 67
+cite$ -- 78
+duplicate$ -- 6409
+empty$ -- 5169
+format.name$ -- 955
+if$ -- 13575
+int.to.chr$ -- 5
+int.to.str$ -- 79
+missing$ -- 804
+newline$ -- 315
+num.names$ -- 213
+pop$ -- 2564
 preamble$ -- 1
-purify$ -- 345
+purify$ -- 355
 quote$ -- 0
-skip$ -- 2438
+skip$ -- 2507
 stack$ -- 0
-substring$ -- 1830
-swap$ -- 5877
-text.length$ -- 163
+substring$ -- 1884
+swap$ -- 6044
+text.length$ -- 168
 text.prefix$ -- 0
 top$ -- 8
-type$ -- 933
+type$ -- 960
 warning$ -- 7
-while$ -- 197
+while$ -- 203
 width$ -- 0
-write$ -- 687
+write$ -- 704
 (There were 8 warnings)
