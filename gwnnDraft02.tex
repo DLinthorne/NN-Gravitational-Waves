@@ -349,8 +349,6 @@ A SFOPT proceeds through bubble nucleation, where bubbles of the hadronic phase 
 S_{E}(T) = \frac{1}{T}\int d^3x \bigg[\frac{1}{2}(\nabla\phi)^2 + V(\phi,T)  \bigg],
 \end{equation}
 where the time component has been integrated out due to nucleation occuring not in vaccum but in a finite temperature plasma. $\phi$ is the symmetry breaking scalar field with a non-zero vev. In the case of the chiral phase transition, the scalar field breaking the SU$(N_f)_{R}$ $ \times$ SU$(N_f)_{L}$ chiral symmetry is the effective quark condensate $\phi_{i} \sim \langle q\bar{q} \rangle_{i}$ of the respective sector. We leave the thermalized potential $V(\phi, T)$ general. As previously stated, an exact QCD potential at the time of the chiral phase transition is not well understood outside of lattice results. In~\cite{Bai:2018dxf} chiral effective Lagrangian was used to calculate a low energy thermalized potential for confining SU$(N)$. 
-
-
 The amount of energy density dumped into the individual sectors dictates the energy budget for the PT and hence for the gravitational waves. Assuming that the SM sector is radiation dominated, a quantity that characterizes the strength of the PT is the ratio of the latent heat of the phase transition, $\epsilon$, to the energy density of radiation, at the time of nucleation~\citep{Espinosa:2010hh} ,
 \begin{equation}
 \alpha     \equiv  \frac{\epsilon}{g_{*} \pi^2 (T^{nuc}_{\gamma})^4/30},
@@ -366,9 +364,7 @@ with $\xi$ being the temperature ratio defined in Eq.~(\ref{eq:xi}). The bounds 
 \alpha_i \approx \xi_i^{4} \approx \bigg( \frac{\Lambda_{QCD,i}}{T_{\gamma}^{nuc}}\bigg)^4,
 \end{equation}
 %
-where $T_{\gamma}^{nuc}$ is the temperature of the SM photon bath at the time of the phase transition.
-
-Another important parameter to characterize the phase transition is its inverse timescale, $\beta$~\citep{Caprini:2015zlo}. The inverse timescale can be calculated using the action in Eq.~(\ref{eqn:EuclideanAction}), 
+where $T_{\gamma}^{nuc}$ is the temperature of the SM photon bath at the time of the phase transition. Another important parameter to characterize the phase transition is its inverse timescale, $\beta$~\citep{Caprini:2015zlo}. The inverse timescale can be calculated using the action in Eq.~(\ref{eqn:EuclideanAction}), 
 \begin{equation}
 \beta  \equiv \frac{dS_{E}(T)}{dt}\bigg|_{t = t_{nuc}}.
 \end{equation}
@@ -400,12 +396,12 @@ The total gravitational wave signal is a linear combination of the three contrib
 \begin{equation}
 h^2\Omega_{\textrm{GW}} \approx h^2\Omega_{\phi} + h^2\Omega_{v} + h^2\Omega_{turb} .
 \end{equation}
-In essence, this is a linear combination of the individual spectral shapes weighted by a power of their efficiency factors $\kappa^q$. 
+In essence, this is a linear combination of the individual spectral shapes weighted by their efficiency factors $\kappa$. 
 Ultimately, calculating the critical phase transition strength for each sector using Eq.~(\ref{eqn:critPTstrength}) indicates that every sector has a phase transition in the runaway regime. Thus, all exotic sectors have strong first order phase transitions that lead to runaway bubble walls ($\alpha >\alpha_{\infty}$). In this case, the efficiency factors for the sound wave and MHD contributions are small and the GWs produced are dominantly from bubble collisions, $h^2\Omega_{\textrm{GW}} \approx h^2\Omega_{\phi}$. Quantities that are calculated at the time of nucleation are denoted with an asterisk (i.e $h^2\Omega_{\textrm{GW}}^*$), which are evolved to relate to their values at the time of observation. The form of the GW energy density at the time of nucleation is given by~\citep{Breitbach:2018ddu},
 \begin{equation}
 h^2\Omega_{\textrm{GW}}^* = 7.7\times 10^{-2} \bigg( \frac{\kappa_{\phi} \alpha}{1 + \alpha} \bigg)^2 \bigg( \frac{H}{\beta} \bigg)^2  S(f)
 \end{equation}
-Where we have assumed an optimistic bubble wall velocity of $v \sim 1$ for runaway bubbles. $S(f)$ is the spectral shape function for the signal and a parametric from has been found through numerical simulations~\cite{Huber_2008} of bubble wall collisions.
+Where we have assumed an optimistic bubble wall velocity of $v \sim c$ for runaway bubbles. $S(f)$ is the spectral shape function for the signal and a parametric from has been found through numerical simulations~\cite{Huber_2008} of bubble wall collisions.
 \begin{equation}\label{eqn::spectralshape}
 S(f) = \frac{3.8 \,(f/f_p)^{2.8}}{1 + 2.8\,(f/f_p)^{3.8}}
 \end{equation}
@@ -416,9 +412,9 @@ f_{p} = 3.8 \times 10^{-8} \, \textrm{Hz}\, \bigg( \frac{\beta}{H}\bigg)\bigg(\f
 \end{equation}
 %
 where $g_*$  is calculated using Eq.~(\ref{eqn:RelaDOF}) , although, due to the lack of substantial reheating into the hidden sectors, the SM contribution is dominant. 
-Now that the framework has been laid out for the creation of GW from a single SFOPT, we generalize to multiple sectors going under independent, coherent SFOPT. In the models presented in this paper, we consider a subset of N-hidden sectors that phase transition at a SM temperature of $T_{\gamma}^{i}$. As the GWs propagate in free space, the energy density and frequency spectrum, at the time of production $\Omega_{\textrm{GW}}^{*}(f)$, will redshift to today's value $\Omega_{\textrm{GW}}^{0}(f) = \mathcal{A}\, \Omega_{\textrm{GW}}^{*}((a_{0}/a) f) $. The Redshifting factor, $\mathcal{A}$, accounts for the redshifting of both $\rho_{\textrm{GW}} $ and $\rho_{c}$~\cite{Breitbach:2018ddu,PhysRevD.49.2837}, given by:
+Now that the framework has been laid out for the creation of GW from a single SFOPT, we generalize to multiple sectors going under independent, coherent SFOPT. In the models presented in this paper, we consider a subset of N-hidden sectors that phase transition at a SM temperature of $T_{\gamma}^{i}$. As the GWs propagate in free space, the energy density and frequency spectrum, at the time of production $\Omega_{\textrm{GW}}^{*}(f)$, will redshift to today's value $\Omega_{\textrm{GW}}^{0}(f) = \mathcal{A}\, \Omega_{\textrm{GW}}^{*}((a_{0}/a) f) $. The Redshifting factor, $\mathcal{A}$, accounts for the redshifting of both $\rho_{\textrm{GW}} $ and $\rho_{c}$~\cite{Breitbach:2018ddu,PhysRevD.49.2837},
 \begin{equation}\label{eqn::redshifting}
-\mathcal{A} \equiv \bigg( \frac{a}{a_{0}} \bigg)^4 \bigg( \frac{H}{H_{0}}\bigg)^2,
+\mathcal{A} \equiv \bigg( \frac{a}{a_{0}} \bigg)^4 \bigg( \frac{H}{H_{0}}\bigg)^2
 \end{equation}
 where $a$ ($a_{0}$)  and $H$ ($H_{0}$) are the scale factor and Hubble constant at the time of nucleation (observation), respectively. Assuming that the sectors are completely decoupled before and after their respective SFOPT, the total GW signal that would be measured today is given by the coherent sum,
 \begin{equation}
@@ -446,8 +442,7 @@ There are four scenarios that we examine here:
 \item \textbf{Medium split scenario:} Similar to the previous case: these sectors have higgs vevs that are split by a factor of $\sqrt{10}= (v_{h1})/(v_{h2})$, resulting in a much smaller difference in the peak frequency of their gravitational wave signals. In the $N$naturalness framework this is equivalent to reheating two standard sectors, one with $i\sim 10^{12}$ and another with $i\sim 10^{13}$ up to the maximum allowed temperature ratio.
 \item \textbf{Five sector scenario:} Five sectors are reheated to the maximum allowed temperature ratio, each with vevs that are $\sqrt{3} \sim (v_{hi})/(v_{h(i+1)})$ larger than the previous sector.
 \end{itemize}
-The GW results of these cases are presented in figure~(\ref{fig:Haa}). In all cases, the summed GW signal is detectable by one or more proposed interferometers. When relaxing the assumptions on $\beta/H$, the scenarios in figure~(\ref{fig:Haa}) are still detectable for values ranging between $\mathcal{O}(1)$ and $\mathcal{O}(100)$ The frequency dependence in Eq.~(\ref{eqn::spectralshape}) takes the form of $f/f_{p}$, this causes a cancellation between the redshifting factors. As multiple sectors phase transition at different times, and therefore temperatures, the peaks will shift relative to each other, purely from the linear temperature dependence of the peak frequency $f_{p} \sim T_{\gamma}$.  This is seen in figure~(\ref{fig:Haa}), where the spectrum peaks are shifted causing a peak broadening of the convoluted spectrum. The broadening can be substantial if the hidden sectors transition between a large gap of time. Assuming that the amplitudes of individual contributions are comparable, a temperature gap limit exists at which two or more individual peaks could be resolved.
-
+The GW results of these cases are presented in figure~(\ref{fig:Haa}). In all cases, the summed GW signal is detectable by one or more proposed interferometers. When relaxing the assumptions on $\beta/H$, the scenarios in figure~(\ref{fig:Haa}) are still detectable for values ranging between $\mathcal{O}(1)$ and $\mathcal{O}(100)$ The frequency dependence in Eq.~(\ref{eqn::spectralshape}) takes the form of $f/f_{p}$, this causes a cancellation between the redshifting factors. As multiple sectors phase transition at different times, and therefore temperatures, the peaks will shift relative to each other, purely from the linear temperature dependence of the peak frequency $f_{p} \sim T_{\gamma}$.  This is seen in figure~(\ref{fig:Haa}), where the spectrum peaks are shifted causing a peak broadening of the convoluted spectrum. The broadening can be substantial if the hidden sectors transition between a large gap of time (temperature). Eventually, a temperature limit will be reached where two (or multiple) distinct peaks will be visible, provided that the amplitudes are comparable. 
 \begin{figure*}[tb]
 \centering
 \begin{minipage}[c]{\textwidth}
@@ -460,7 +455,7 @@ The GW results of these cases are presented in figure~(\ref{fig:Haa}). In all ca
 \includegraphics[width=.45\textwidth]{energydensity.png} 
 \end{minipage}
 \hfill
-\caption{ Gravitational wave power spectrum for various models. The top row consists of two models with only two hidden sectors undergoing SFOPT at differing temperatures. The bottom left (right) are examples of exotic sectors, discussed in section V, with sectors reheated at $T \sim 0.25\,T_{SM}$ ($T \sim 0.17\,T_{SM}$ ). All contributions are assumed to be purely from bubble collisions $\Omega_{\phi}$, with $\beta/H  = 10$.  The shaded curves are the power law noise curves~\cite{PhysRevD.88.124032} calculated from expected sensitivity curves for space-based interferometers and pulsar timing arrays; Lisa ( blue), DECIO (light blue), BBO (red), SKA 5-year (purple), SKA 10-year (orange), SKA 20-year (green)   }
+\caption{ Gravitational wave power spectrum for various models. The top row consists of two models with only two hidden sectors undergoing SFOPT at differing temperatures. The bottom left (right) are examples of exotic sectors, discussed in section V, with sectors reheated at $T \sim 0.25\,T_{SM}$ ($T \sim 0.17\,T_{SM}$ ). All contributions are assumed to be purely from bubble collisions $\Omega_{\phi}$, with $\beta/H  = 10$.  The shaded curves are the power law noise curves~\cite{PhysRevD.88.124032} calculated from expected sensitivity curves for space-based interferometers and pulsar timing arrays; Lisa (blue), DECIO (light blue), BBO (red), SKA 5-year (purple), SKA 10-year (orange), SKA 20-year (green)   }
 \label{fig:Haa}
 \end{figure*}
 \subsection{Detection of Stochastic Graviational Waves}
@@ -468,22 +463,22 @@ The GW results of these cases are presented in figure~(\ref{fig:Haa}). In all ca
 A unpolarized stocastic gravitational wave background could be detectable if the the signal-to-noise ratio (SNR) is above some threshold value, $\rho > \rho_{th}$, dictated by the capabilities of future interferometers and pulsar timing arrarys (PTA). These interferometers/PTAs quote their experimental sensistivies in terms of spectral noise curves, $S_{\textrm{eff}}(f)$, which can be translated into units of energy density through $h^2 \Omega_{\textrm{eff}}(f) = \frac{2\pi^2}{3H^2}f^3 S_{\textrm{eff}}(f)$. If the experiment uses a single (multiple) detector, the auto-correlated (cross-correlated) SNR is used in comparing to the threshold value $\rho_{th}$. The auto-correlated and cross-correlated SNR are explictely given as~\cite{PhysRevD.59.102001},
 \begin{equation}\label{eqn::SNR}
 \begin{split}
-\rho^2 =  T \int_{f_{\textrm{min}}}^{f_{\textrm{max}}}\textrm{d}f \bigg( \frac{h^2 \Omega_{\textrm{GW}}(f)}{h^2 \Omega_{\textrm{eff}}(f)} \bigg)^2 \;\;\;\;\;\; \textrm{(auto-correlated)},
+\rho^2 =  T \int_{f_{\textrm{min}}}^{f_{\textrm{max}}}\textrm{d}f \bigg( \frac{h^2 \Omega_{\textrm{GW}}(f)}{h^2 \Omega_{\textrm{eff}}(f)} \bigg)^2 \;\;\;\;\;\; \textrm{(auto-correlated)}
 \\
-\rho^2 = 2 T \int_{f_{\textrm{min}}}^{f_{\textrm{max}}}\textrm{d}f \bigg( \frac{h^2 \Omega_{\textrm{GW}}(f)}{h^2 \Omega_{\textrm{eff}}(f)} \bigg)^2 \;\;\;\: \textrm{(cross-correlated)},
+\rho^2 = 2 T \int_{f_{\textrm{min}}}^{f_{\textrm{max}}}\textrm{d}f \bigg( \frac{h^2 \Omega_{\textrm{GW}}(f)}{h^2 \Omega_{\textrm{eff}}(f)} \bigg)^2 \;\;\;\: \textrm{(cross-correlated)}
 \end{split}
 \end{equation}
-where $T$ is the exposure time of the experiment. The integration covers the entire broadband range of frequencies $(f_{\textrm{min}}, f_{\textrm{max}})$. LISA~\citep{Audley:2017drz} and B-DEICIGO~\citep{10.1093/ptep/pty078} are proposed to be single detector interferometers, where as BBO~\citep{PhysRevD.72.083005} and DEICIGO~\citep{Sato_2017} would be built from an array of multiple interferometers.
-GW signals produced from an early cosmological phase transition would be seen as a stocastic background. Assuming that the GW follows a power law background in frequency, it is commonplace to quote the power law integrated (PLI) sensistivity curves~\cite{PhysRevD.88.124032}. The PLI curves are constructed using information from the power law form of the signal,
+Where $T$ is the exposure time of the experiment. The integration covers the entire broadband range of frequencies $(f_{\textrm{min}}, f_{\textrm{max}})$. LISA~\citep{Audley:2017drz} and B-DEICIGO~\citep{10.1093/ptep/pty078} are proposed to be single detector interferometers, where as BBO~\citep{PhysRevD.72.083005} and DEICIGO~\citep{Sato_2017} would be built from an array of multiple interferometers.
+GW signals produced from an early cosmological phase transition would be seen as a stocastic background. Assuming that the GW follows a power law background in frequency, it is commonplace to quote the power law integrated (PLI) sensistivity curves~\cite{PhysRevD.88.124032}. the PLI curves are constructed using information from the power law form of the signal,
 \begin{equation}
-h^2 \Omega_{\textrm{GW}}(f) = h^2 \Omega_{\beta}  \bigg(\frac{f}{f_{\textrm{ref}}}\bigg)^{\beta},
+h^2 \Omega_{\textrm{GW}}(f) = h^2 \Omega_{\beta}  \bigg(\frac{f}{f_{\textrm{ref}}}\bigg)^{\beta}
 \end{equation}
 where $\beta$ is the spectral index of the power law, and $f_{\textrm{ref}}$ is an arbitrary reference frequency which has no effect on the PLI sensetivities. 
-The method of calculating the PLI curves involves plotting $h^2 \Omega_{\textrm{GW}}(f) $, using Eq.~(\ref{eqn:RelaDOF}), for various spectral indices $\beta \in (-8,-7,-6, ... , 6, 7, 8)$ and for some fixed threshold value of $\rho_{th}$. Each curve will lay tangent to the PSI curve, more formally,
+The method of calculating the PLI curves involves plotting $h^2 \Omega_{\textrm{GW}}(f) $, using Eq.~(\ref{eqn:RelaDOF}), for various spectral indices $\beta \in (-8,-7,-6, ... , 6, 7, 8)$ and for some fixed threshold value of $\rho_{th}$. Each curve will lay tangent to the PLI curve, more formally,
 \begin{equation}
 h^2 \Omega_{\textrm{PLI}} = \max\limits_{\beta}\bigg[ h^2 \Omega_{\beta}\bigg(\frac{f}{f_{\textrm{ref}}}\bigg)^{\beta}  \bigg].
 \end{equation}
-The spectral noise curves used to create the PSI curves shown in figures~(\ref{fig::Nnatural}) and ~(\ref{fig:Haa}) where taken from~\citep{Robson_2019,PhysRevD.83.084036,doi:10.1142/S0218271813410137,10.1093/ptep/pty078, Breitbach:2018ddu} for the interferometers, and ~\citep{Breitbach:2018ddu, Janssen:2014dka} for the SKA pulsar timing array. We have assumed an observation time of $T = 4 $ years for the interferometers and $T= 5, 10, 20 $  years for the various stages of SKA. In the case of the PTA experiments, the sensitivity curves are dependent on how frequently the pulsar's timing residuals, $\delta t$, are measured. When using Eq.~(\ref{eqn::SNR}) to construct the PSI curves for SKA, the upper integration bound is inversely proportional to pulsar's timing residual, $f_{min} = 1/\delta t$. In this work, it is assumed that $\delta t = 14$ days, but this may underestimate the capabilities of SKA as well as the cadences of the pulsar populations. If the timing residuals are lowered the maximum frequency reach of SKA increases, and the corresponding PSI curves in Figs.~(\ref{fig::Nnatural}) $\&$ ~(\ref{fig:Haa}) are shifted to the right.
+The spectral noise curves used to create the PLI curves shown in figures~(\ref{fig::Nnatural}) and ~(\ref{fig:Haa}) where taken from~\citep{Robson_2019,PhysRevD.83.084036,doi:10.1142/S0218271813410137,10.1093/ptep/pty078, Breitbach:2018ddu} for the interferometers, and ~\citep{Breitbach:2018ddu, Janssen:2014dka} for the SKA pulsar timing array. We have assumed an observation time of $T = 4 $ years for the interferometers and $T= 5, 10, 20 $  years for the various stages of SKA.
 \section{Conclusion}
 \label{sec:conclusion}
 
@@ -498,6 +493,11 @@ In the former case, this demonstrates the power of GW signals to probe deep into
 Shifting to the other part of our framework, our results leads to the question ``are current experiments able to probe non power law signals?" For frequency ranges away from the peak of the total GW signals the quoted detection thresholds should hold: the signals fall off in a fashion identical to a power law. However, for areas around the peak frequency the answer is less clear; the PLI curves are built under the assumption of a power law. This points to the need for future work to better understand detection prospects for the next generation of GW detectors. 
 
 %Questions, of course, still abound: how can the %estimations of $\alpha$ and $\beta/H$ be improved? 
+
+\section*{Acknowledgement}
+We thank Djuna Croon, Yang Bai and Yuhsin Tsai  for helpful discussions. P.A.S. and D.L. Both thank the 2018 Theoretical Advanced Study Institute in Elementary Particle Physics Program (TASI) for setting up a platform for discussion which seeded the genesis of this project. This work was supported by the Natural Sciences and Engineering Research Council of
+Canada (NSERC). D.L. acknowledges support from the NSERC Postgraduate Scholarships-Doctoral Program (PGS D).
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%
