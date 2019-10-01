@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 OCT 2019 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 OCT 2019 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -444,12 +444,12 @@ Underfull \hbox (badness 1484) in paragraph at lines 636--642
 ) [12] (./gwnnDraft02.aux) ) 
 Here is how much of TeX's memory you used:
  5245 strings out of 492995
- 71920 string characters out of 6132704
+ 71921 string characters out of 6132704
  159613 words of memory out of 5000000
  8703 multiletter control sequences out of 15000+600000
  12815 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,19n,29p,1291b,449s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,19n,29p,1291b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
@@ -473,7 +473,7 @@ l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/
 texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on gwnnDraft02.pdf (12 pages, 690830 bytes).
+Output written on gwnnDraft02.pdf (12 pages, 691210 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream
