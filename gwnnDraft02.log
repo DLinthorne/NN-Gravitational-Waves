@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 OCT 2019 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 OCT 2019 17:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -360,43 +360,43 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 83.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
  [1
 Non-PDF special ignored!{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/upd
 map/pdftex.map}] [2] [3] [4] [5] [6] [7]
 <Nnatral.png, id=47, 803.0pt x 522.95375pt>
 File: Nnatral.png Graphic file (type png)
  <use Nnatral.png>
-Package pdftex.def Info: Nnatral.png used on input line 488.
+Package pdftex.def Info: Nnatral.png used on input line 489.
 (pdftex.def)             Requested size: 240.90186pt x 156.88733pt.
  [8 <./Nnatral.png (PNG copy)>] <highest.png, id=51, 803.0pt x 523.9575pt>
 File: highest.png Graphic file (type png)
  <use highest.png>
-Package pdftex.def Info: highest.png used on input line 571.
+Package pdftex.def Info: highest.png used on input line 572.
 (pdftex.def)             Requested size: 229.49844pt x 149.74518pt.
 
 <TwoFar.png, id=52, 803.0pt x 523.9575pt>
 File: TwoFar.png Graphic file (type png)
  <use TwoFar.png>
-Package pdftex.def Info: TwoFar.png used on input line 573.
+Package pdftex.def Info: TwoFar.png used on input line 574.
 (pdftex.def)             Requested size: 229.49844pt x 149.74518pt.
 
 <TwoMed.png, id=53, 803.0pt x 522.95375pt>
 File: TwoMed.png Graphic file (type png)
  <use TwoMed.png>
-Package pdftex.def Info: TwoMed.png used on input line 575.
+Package pdftex.def Info: TwoMed.png used on input line 576.
 (pdftex.def)             Requested size: 229.49844pt x 149.4583pt.
 
 <energydensity.png, id=54, 803.0pt x 522.95375pt>
 File: energydensity.png Graphic file (type png)
  <use energydensity.png>
-Package pdftex.def Info: energydensity.png used on input line 577.
+Package pdftex.def Info: energydensity.png used on input line 578.
 (pdftex.def)             Requested size: 229.49844pt x 149.4583pt.
 
 [9] [10] [11 <./highest.png (PNG copy)> <./TwoFar.png (PNG copy)> <./TwoMed.png
@@ -458,7 +458,7 @@ l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/
 texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on gwnnDraft02.pdf (13 pages, 713251 bytes).
+Output written on gwnnDraft02.pdf (13 pages, 713139 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  100 compressed objects within 1 object stream
