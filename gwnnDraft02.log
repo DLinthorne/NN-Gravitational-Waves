@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 OCT 2019 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  3 OCT 2019 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -360,92 +360,81 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
  [1
 Non-PDF special ignored!{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/upd
 map/pdftex.map}] [2] [3] [4] [5] [6] [7]
 <Nnatral.png, id=47, 803.0pt x 522.95375pt>
 File: Nnatral.png Graphic file (type png)
  <use Nnatral.png>
-Package pdftex.def Info: Nnatral.png used on input line 426.
+Package pdftex.def Info: Nnatral.png used on input line 486.
 (pdftex.def)             Requested size: 240.90186pt x 156.88733pt.
  [8 <./Nnatral.png (PNG copy)>] <highest.png, id=51, 803.0pt x 523.9575pt>
 File: highest.png Graphic file (type png)
  <use highest.png>
-Package pdftex.def Info: highest.png used on input line 449.
+Package pdftex.def Info: highest.png used on input line 569.
 (pdftex.def)             Requested size: 229.49844pt x 149.74518pt.
 
 <TwoFar.png, id=52, 803.0pt x 523.9575pt>
 File: TwoFar.png Graphic file (type png)
  <use TwoFar.png>
-Package pdftex.def Info: TwoFar.png used on input line 451.
+Package pdftex.def Info: TwoFar.png used on input line 571.
 (pdftex.def)             Requested size: 229.49844pt x 149.74518pt.
 
-<TwoMed.png, id=53, 803.0pt x 524.96124pt>
+<TwoMed.png, id=53, 803.0pt x 522.95375pt>
 File: TwoMed.png Graphic file (type png)
  <use TwoMed.png>
-Package pdftex.def Info: TwoMed.png used on input line 453.
-(pdftex.def)             Requested size: 229.49844pt x 150.03204pt.
+Package pdftex.def Info: TwoMed.png used on input line 573.
+(pdftex.def)             Requested size: 229.49844pt x 149.4583pt.
 
-<energydensity.png, id=54, 803.0pt x 524.96124pt>
+<energydensity.png, id=54, 803.0pt x 522.95375pt>
 File: energydensity.png Graphic file (type png)
  <use energydensity.png>
-Package pdftex.def Info: energydensity.png used on input line 455.
-(pdftex.def)             Requested size: 229.49844pt x 150.03204pt.
+Package pdftex.def Info: energydensity.png used on input line 575.
+(pdftex.def)             Requested size: 229.49844pt x 149.4583pt.
 
-[9]
-Underfull \hbox (badness 4454) in paragraph at lines 487--488
-[]\OT1/cmr/m/n/10 Here, we ex-am-ined sev-eral sce-nar-ios (in-clud-ing
- []
-
-[10 <./highest.png (PNG copy)> <./TwoFar.png (PNG copy)> <./TwoMed.png (PNG cop
-y)> <./energydensity.png (PNG copy)>] (./gwnnDraft02.bbl
-Underfull \hbox (badness 1189) in paragraph at lines 105--117
- \OT1/cmr/m/n/9 Grav. \OT1/cmr/bx/n/9 29\OT1/cmr/m/n/9 , 124013 (2012), [Er-ra-
-tum: Class. Quant.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--189
+[9] [10] [11 <./highest.png (PNG copy)> <./TwoFar.png (PNG copy)> <./TwoMed.png
+ (PNG copy)> <./energydensity.png (PNG copy)>] (./gwnnDraft02.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 198--205
  []\OT1/cmr/m/n/9 C. Caprini \OT1/cmr/m/it/9 et al.\OT1/cmr/m/n/9 , JCAP \OT1/c
 mr/bx/n/9 1604\OT1/cmr/m/n/9 , 001 (2016),
  []
 
 Missing character: There is no Ã in font cmr9!
 Missing character: There is no ¦ in font cmr9!
-[11]
-Underfull \hbox (badness 2012) in paragraph at lines 552--559
+[12]
+Underfull \hbox (badness 2012) in paragraph at lines 585--593
  []\OT1/cmr/m/n/9 M. Panero, Phys. Rev. Lett. \OT1/cmr/bx/n/9 103\OT1/cmr/m/n/9
  , 232001 (2009),
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--632
+Underfull \hbox (badness 10000) in paragraph at lines 651--656
  []\OT1/cmr/m/n/9 K. N. Abaza-jian \OT1/cmr/m/it/9 et al. \OT1/cmr/m/n/9 (CMB-S
 4),  (2016),
  []
 
 
-Underfull \hbox (badness 1484) in paragraph at lines 636--642
+Underfull \hbox (badness 1484) in paragraph at lines 672--678
  []\OT1/cmr/m/n/9 Z. Fodor and S. D. Katz, JHEP \OT1/cmr/bx/n/9 03\OT1/cmr/m/n/
 9 , 014 (2002),
  []
 
-) [12] (./gwnnDraft02.aux) ) 
+) [13] (./gwnnDraft02.aux) ) 
 Here is how much of TeX's memory you used:
- 5245 strings out of 492995
- 71922 string characters out of 6132704
- 161612 words of memory out of 5000000
- 8703 multiletter control sequences out of 15000+600000
+ 5253 strings out of 492995
+ 72050 string characters out of 6132704
+ 167625 words of memory out of 5000000
+ 8711 multiletter control sequences out of 15000+600000
  12815 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,19n,29p,1291b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,19n,29p,1310b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
@@ -469,10 +458,10 @@ l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/
 texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on gwnnDraft02.pdf (12 pages, 692157 bytes).
+Output written on gwnnDraft02.pdf (13 pages, 689008 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 144 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
