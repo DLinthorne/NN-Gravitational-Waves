@@ -596,11 +596,10 @@ A \textit{stochastic} gravitational wave background could be detectable if the t
 \end{equation}
 Where $\mathcal{T}$ is the exposure time of the experiment. The integration covers the entire broadband range of frequencies $(f_{\textrm{min}}, f_{\textrm{max}})$. LISA~\citep{Audley:2017drz} and B-DEICIGO~\citep{10.1093/ptep/pty078} are proposed to be single detector interferometers, where as BBO~\citep{PhysRevD.72.083005} and DEICIGO~\citep{Sato_2017} would be built from an array of multiple interferometers.
 GW signals produced from an early cosmological phase transition would be seen as a stocastic background. Assuming that the GW follows a power law background in frequency, it is commonplace to quote the power law integrated (PLI) sensistivity curves~\cite{PhysRevD.88.124032}. The PLI curves are constructed using information from the power law form of the signal,
-\begin{equation}
+\begin{equation}\label{eqn::PowerLaw}
 h^2 \Omega_{\textrm{GW}}(f) = h^2 \Omega_{\gamma}  \bigg(\frac{f}{f_{\textrm{ref}}}\bigg)^{\gamma}
 \end{equation}
-where $\gamma$ is the spectral index of the power law, and $f_{\textrm{ref}}$ is an arbitrary reference frequency which has no effect on the PLI sensetivities. 
-The method of calculating the PLI curves involves plotting $h^2 \Omega_{\textrm{GW}}(f) $, using Eq.~(\ref{eqn:RelaDOF}), for various spectral indices $\gamma \in (-8,-7,-6, ... , 6, 7, 8)$ and for some fixed threshold value of $\rho_{th}$. Each curve will lay tangent to the PLI curve, more formally,
+where $\gamma$ is the spectral index of the power law, and $f_{\textrm{ref}}$ is an arbitrary reference frequency which has no effect on the PLI sensetivities.  $h^2 \Omega_{\gamma} $ is the energy density calculated using Eq.~(\ref{eqn::SNR}) with spectral index $\gamma$  and reference frequency $f_{\textrm{ref}}$. The method of calculating the PLI curves involves plotting $h^2 \Omega_{\textrm{GW}}(f) $, using Eq.~(\ref{eqn::PowerLaw}), for various spectral indices $\gamma$ and for some fixed threshold value of $\rho_{th}$. Each curve will lay tangent to the PLI curve, more formally,
 \begin{equation}
 h^2 \Omega_{\textrm{PLI}} = \max\limits_{\gamma}\bigg[ h^2 \Omega_{\gamma}\bigg(\frac{f}{f_{\textrm{ref}}}\bigg)^{\gamma}  \bigg].
 \end{equation}
