@@ -438,11 +438,11 @@ Due to the lack of a general analytic QCD potential, it is not possible to use E
 \label{sec:signals}
 
 Gravitational waves are produced with contributions from different components of the SFOPT's evolution.  It is commonplace to parameterize the spectral energy density in gravitational waves by~\citep{PhysRevD.75.043507} 
-\begin{equation}\label{eqn:SpectralEng}
+\begin{equation}
 \Omega_{\textrm{GW}} (f) \equiv \frac{1}{ \rho_{c}} \frac{d \rho_{\textrm{GW}}(f) }{d \textrm{\,log}(f)} , 
 \end{equation}
 where $\rho_{c} = 3H^2/(8 \pi G)$ is the critical energy density. The total gravitational wave signal is a linear combination of three leading contributions:
-\begin{equation}
+\begin{equation}\label{eqn:SpectralEng}
 h^2\Omega_{\textrm{GW}} \approx h^2\Omega_{\phi} + h^2\Omega_{v} + h^2\Omega_{turb} .
 \end{equation}
 The three leading order contributions to the GW power spectrum are as follows:
@@ -599,8 +599,7 @@ GW signals produced from an early cosmological phase transition would be seen as
 \begin{equation}
 h^2 \Omega_{\textrm{GW}}(f) = h^2 \Omega_{\gamma}  \bigg(\frac{f}{f_{\textrm{ref}}}\bigg)^{\gamma}
 \end{equation}
-where $\gamma$ is the spectral index of the power law, and $f_{\textrm{ref}}$ is an arbitrary reference frequency which has no effect on the PLI sensetivities. 
-The method of calculating the PLI curves involves plotting $h^2 \Omega_{\textrm{GW}}(f) $, using Eq.~(\ref{eqn:RelaDOF}), for various spectral indices $\gamma \in (-8,-7,-6, ... , 6, 7, 8)$ and for some fixed threshold value of $\rho_{th}$. Each curve will lay tangent to the PLI curve, more formally,
+where $\gamma$ is the spectral index of the power law, and $f_{\textrm{ref}}$ is an arbitrary reference frequency which has no effect on the PLI sensetivities.  $h^2 \Omega_{\gamma} $ is the energy density calculated using Eq.~(\ref{eqn::SNR}) with spectral index $\gamma$  and reference frequency $f_{\textrm{ref}}$. The method of calculating the PLI curves involves plotting $h^2 \Omega_{\textrm{GW}}(f) $, using Eq.~(\ref{eqn:RelaDOF}), for various spectral indices $\gamma \in (-8,-7,-6, ... , 6, 7, 8)$ and for some fixed threshold value of $\rho_{th}$. Each curve will lay tangent to the PLI curve, more formally,
 \begin{equation}
 h^2 \Omega_{\textrm{PLI}} = \max\limits_{\gamma}\bigg[ h^2 \Omega_{\gamma}\bigg(\frac{f}{f_{\textrm{ref}}}\bigg)^{\gamma}  \bigg].
 \end{equation}
