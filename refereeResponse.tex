@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%% DO NOT CHANGE HERE %%%%%%%%%%%%%%%%%%%% {
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% }
+
+%%%%%%%%%%%%%%%%%%%%%%%% CHANGE HERE %%%%%%%%%%%%%%%%%%%% {
+\newcommand\course{}
+\newcommand\semester{Jan 2020}
+\newcommand\hwnumber{}                 % <-- ASSIGNMENT #
+\newcommand\NetIDa{}           % <-- YOUR NAME
+\newcommand\NetIDb{}           % <-- STUDENT ID #
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% }
+
+%%%%%%%%%%%%%%%%% DO NOT CHANGE HERE %%%%%%%%%%%%%%%%%%%% {
+\pagestyle{fancyplain}
+\headheight 35pt
+\lhead{\NetIDa}
+\lhead{\NetIDa\\\NetIDb}                 
+\chead{\textbf{\Large Referee Response \hwnumber}}
+\rhead{\course \\ \semester}
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% }
+
+\begin{document}
+
+We thank the referee for their valuable comments, and we have made changes to the manuscript to address them. The changes are labeled with respect to the points raised in the referee's report.
+
+1) As the referee mentioned, there is a range of allowed values of the inverse transition time, $\beta/H$. According to the literature, the allowed range is roughly $10 < \beta/H < 10^4$. Originally, we only included the most optimistic scenario where this was taken to be $10$. We have added gravitational wave spectra for the other extreme of the range $\beta/H = 10^4$ in all of our plots. This demonstrates both the range in possible peak frequencies and signal strengths available for our phase transitions. We have also added a discussion of different values of $\beta/H$ in section VI as well as in ???.
+
+2) We have expanded our analysis to include the possibility of sound wave and MHD contributions to the gravitational wave spectrum. We have added a discussion in Sec.~VI.A highlighting other possibilities, and we have added an appendix and Fig. 3 to quantitatively explore the gravitational wave signals where the bubbles are non-runaway and the sound wave and MHD contributions become important.  The results have a slightly different spectral profile and tend to produce a weaker but (in some cases) still detectable gravitational wave profile.
+
+3)The plots have been relabeled and the capital I has been removed in order to increase clarity.
+
+-Paul Archer-Smith, Dylan Linthorne, and Daniel Stolarski
+
+\end{document}
