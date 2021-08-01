@@ -1,7 +1,5 @@
 # N-Naturalness Gravitational Waves
-Studying the gravitational wave signatures for nnatrualness
-
-The uploaded files serve the following purposes:
+Studying the gravitational wave signatures for the decoupled sectors of N-natrualness
 
 ## reheatonToDiboson01.nb
 
