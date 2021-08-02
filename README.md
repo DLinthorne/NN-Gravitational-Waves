@@ -1,4 +1,7 @@
 # N-Naturalness Gravitational Waves
+---
+[![arXiv](https://img.shields.io/badge/arXiv-1910.02083%20-green.svg)](https://arxiv.org/abs/1910.02083)
+
 Studying the gravitational wave signatures for the decoupled sectors of N-natrualness
 
 ## reheatonToDiboson01.nb
